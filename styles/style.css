@@ -1,0 +1,130 @@
+*{
+    margin: 10px;
+    padding: 0;
+}
+.image-entete{
+    width: 40px;
+    height: 40px;
+   /* margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 10px;*/
+    
+ 
+ }
+ body nav div{
+    display: flex;
+    
+ }
+ body nav div h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #00b39b;
+ }
+ body nav ul{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #ababab;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-family: Arial,sans-serif;
+}
+
+nav a:hover{
+    color: darkblue;
+    border-bottom: 0 solid #00b39b;
+}
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ";
+    font-size: 12px;
+}
+.od-hero{
+    background-image: url("/photoelec1.jpg");
+   background-color: rgba(0,0,0,0.3);
+ background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover
+}
+.od-hero__title{
+    color: aliceblue;
+}
+.od-hero__subtitle{
+    color: aliceblue;
+    font-size: 27px;  
+}
+#pagetitle{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;   
+
+}
+div h1{
+    font-size: 66px;
+    font: bold;
+}
+.blockhead{
+    background-color: darkgreen;
+    color: beige;
+    text-align: center;
+}
+.blocksubhead{
+    background-color: lightblue;
+    font-size: 23px;
+}
+.blockrow{
+    display: inline;
+}
+.primary{
+    margin-left: 120px;
+    
+}
+.navbar{
+    background-color: blue;
+}

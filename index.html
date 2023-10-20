@@ -1,0 +1,2665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:/Users/DELL/Desktop/GoMyCode/CSS lay out/style/style.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/dc6f77ed50.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css" >
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <img class="image-entete" src="logo_high_tech_group.jpg" alt="logo"></img>
+            <h1>LA TECHNOLOGIE PAS A PAS</h1>    <br>
+            <a name="Haut_de_page"></a> 
+        </div>
+        <h2><center>Réseau Communautaire d'utilisateur, de reparateur et Développeurs d'objet Électronique - informatique pour des applications diverses</center> </h2>
+        
+
+        <ul>
+          <li><a class="Accueil" href="#">Accueil</a></li>
+          <li><a class="Actualite" href="#Actualite">Actualité</a></li>
+          <li class="electronique"><a href="#">electronique &ensp;</a>
+            <ul class="sous">
+              <li><a href="#Cours">Cours</a></li>
+              <li><a href="#">Montage</a></li>
+              <li><a href="#">Depannage</a></li>
+              <li><a href="#">Simulateur</a></li>
+              <li><a href="#">Bus et liaison </a></li>
+              <li><a href="#">Arduino</a></li>
+            </ul>
+          </li>    
+          <li class="informatique"><a href="#">informatique &ensp;</a>
+            <ul class="sous">
+              <li><a href="#">Systemes</a></li>
+              <li><a href="#">Programmation</a></li>
+              <li><a href="#">Dev-Web</a></li>
+              <li><a href="#">Hardware</a></li>
+              <li><a href="#">Intelligence Artificielle</a></li>
+            </ul>
+          </li>
+          <li class="autre utilisation"><a href="#">Utilisation &ensp;</a>
+            <ul class="sous">
+              <li><a href="#">Domotique</a></li>
+              <li><a href="#">Automobile</a></li>
+              <li><a href="#">Climatisation</a></li>
+              <li><a href="#">electromenager</a></li>
+              <li><a href="#">Aviation</a></li>
+              <li><a href="#">Marine</a></li>
+              <li><a href="#">securité</a></li> 
+            </ul>
+          </li>
+          <li><a class="Forum" href="#">Forum</a></li>
+          <li><a class="Emploi Stage" href="#">Emploi Stage</a></li>
+          <li><a class="Inscription" href="#Inscription">Inscription</a></li>
+        </ul>
+      </nav>
+
+    <section class="od-hero">
+        
+        <div class="od-hero__container">
+                        <h1 class="od-hero__title swui-h1 swui-h1--inverse"><br><center>Notre approche innovant et inégalée pour une meilleur maîtrise de l'impact du monde digital</center></h1><br><br><br><br>
+                        <p class="od-hero__subtitle">De nos jours le développement ou l’émergence d’un pays se mesure par son niveau de maîtrise de la technologie. Pour ne pas rester en marge de l’évolution rapide des avancer, nous nous sommes donnés pour objectif de vulgariser la connaissance, de simplifier l’approche et l’explication par un renforcement des rudiments de base de l’électronique et informatique, un partage d’expérience. <br><br>  
+                          Cette plateforme est un outil pour toutes les classes : du débutant à ouvrier qualifié et au spécialiste. Nous leur offrons la possibilité d’apprendre de se perfectionner, de se mettre ajour par rapport l’évolution très rapide de technologie ou même de les accompagner sur des projets innovants. <br><br>  
+                          Nous nous devons de cultiver en nous une solidarité agissante pour tous les corps de métiers en partageant nos expériences individuelles, en étudiant et répertoriant les différentes techniques utilisées, et vulgariser au grand nombre les procédés et processus. <br><br>   
+                          Au final nous devons encourager la recherche et l’innovation dans tous les secteurs d’activités et prioriser le made in Africa. <br><br>   
+                        </p>
+                        
+                  
+        </div>
+    </section>
+ 
+	
+</div>
+
+
+
+
+
+
+
+<div id="pagetitle">
+  <a name="Inscription"></a> 
+	<h1>Inscription</h1>
+	
+</div>
+
+
+
+<form id="registerform" action="inscription/?do=addmember" name="register" method="post" onsubmit="return verify_passwords(password, passwordconfirm);" class="vbform block">
+
+	
+
+	<h2 class="blockhead">S'inscrire au Forum de la technologie pas a pas</h2>
+	<div class="blockbody formcontrols">
+		
+		
+
+		
+
+		<h3 class="blocksubhead">Renseignements obligatoires</h3>
+
+		<div class="section">
+			<div class="blockrow">
+        <ul class="group">
+          <li>
+            <label for="regusername">Identifiant:</label>
+            <input class="primary textbox" id="regusername" type="text" size="50" name="username" maxlength="20" value="" tabindex="1" />
+          </li>
+				</ul>	
+					<script type="text/javascript" src="clientscript/vbulletin_ajax_nameverif.js?v=422"></script>
+					<script type="text/javascript">
+					
+						regname_verif = new vB_AJAX_NameVerify('regname_verif', 'regusername');
+		
+					</script>
+					<p class="description">Veuillez insérer l'identifiant avec lequel vous souhaitez vous identifier et être connu sur ce site.</p>
+				</div>
+			</div>
+    </div> 
+      <hr>
+			<div class="blockrow">
+				<ul class="group">
+					<li>
+						<label for="password">Mot de passe:</label>
+						<input type="password" class="primary textbox" name="password" size="50" id="password" maxlength="50" value="" tabindex="1" />
+					</li>
+					<li>
+						<label for="passwordconfirm">Confirmez votre mot de passe:</label>
+						<input type="password" class="textbox" name="passwordconfirm" size="50" id="passwordconfirm" maxlength="50" value="" tabindex="1" />
+					</li>
+				</ul>
+				<p class="description">Veuillez insérer un mot de passe pour votre compte utilisateur. Remarquez que les mots de passe sont sensibles à la casse.</p>
+			</div>
+      <hr>
+			<div class="blockrow">
+				<ul class="group">
+					<li>
+						<label for="email">Adresse email:</label>
+						<input type="text" class="primary textbox" name="email" id="email" size="50" maxlength="50" value="" dir="ltr" tabindex="1" />
+					</li>
+					<li>
+						<label for="emailconfirm">Confirmez votre adresse email:</label>
+						<input type="text" class="textbox" name="emailconfirm" id="emailconfirm" size="50" maxlength="50" value="" dir="ltr" tabindex="1" />
+					</li>
+				</ul>
+				<p class="description">Veuillez insérer une adresse email valide.</p>
+			</div>
+      <hr>
+			
+
+			
+	
+			<h3 class="blocksubhead">Autres renseignements obligatoires (profil)</h3>
+			<div class="section">
+				<div class="blockrow">
+	<label>Sexe:</label>
+	<div class="rightcol">
+		<select class="primary1" name="userfield[field10]" id="cfield_10" tabindex="1">
+	<option value="0" selected="selected"></option>
+		<option value="1" >Femme</option><option value="2" >Homme</option>
+    </select>
+  <input type="hidden" name="userfield[field10_set]" value="1" />
+
+  <p class="description"></p>
+	</div>
+  <div class="blockrow">
+	<label>Pays:</label>
+	<div class="rightcol">
+		<select class="primary1" name="userfield[field11]" id="cfield_11" tabindex="1">
+	
+		<option value="1" >France</option>
+    <option value="2" >Afghanistan</option>
+    <option value="3" >Afrique Du Sud</option>
+    <option value="4" >Albanie</option>
+    <option value="5" >Algérie</option>
+    <option value="6" >Allemagne</option>
+    <option value="7" >Andorre</option>
+    <option value="8" >Angola</option>
+    <option value="9" >Anguilla</option>
+    <option value="10" >Antarctique</option>
+    <option value="11" >Antigua-Barbuda</option>
+    <option value="12" >Antilles Néerlandaises</option>
+    <option value="13" >Arabie Saoudite</option>
+    <option value="14" >Argentine</option>
+    <option value="15" >Arménie</option>
+    <option value="16" >Aruba</option>
+    <option value="17" >Australie</option>
+    <option value="18" >Autriche</option>
+    <option value="19" >Azerbaïdjan</option>
+    <option value="20" >Bahamas</option>
+    <option value="21" >Bahreïn</option>
+    <option value="22" >Bangladesh</option>
+    <option value="23" >Barbade</option>
+    <option value="24" >Belgique</option>
+    <option value="25" >Belize</option>
+    <option value="26" >Bénin</option>
+    <option value="27" >Bermudes</option>
+    <option value="28" >Bhoutan</option>
+    <option value="29" >Biélorussie</option>
+    <option value="30" >Bolivie</option>
+    <option value="31" >Bosnie</option>
+    <option value="32" >Botswana</option>
+    <option value="33" >Brésil</option>
+    <option value="34" >Brunei</option>
+    <option value="35" >Bulgarie</option>
+    <option value="36" >Burkina Faso</option>
+    <option value="37" >Burundi</option>
+    <option value="38" >Caïmans</option>
+    <option value="39" >Cambodge</option>
+    <option value="40" >Cameroun</option>
+    <option value="41" >Canada</option>
+    <option value="42" >Cap-Vert</option>
+    <option value="43" >Caraïbes</option>
+    <option value="44" >Centrafrique</option>
+    <option value="45" >Chili</option>
+    <option value="46" >Chine</option>
+    <option value="47" >Chypre</option>
+    <option value="48" >Colombie</option>
+    <option value="49" >Comores</option>
+    <option value="50" >Congo-Brazzaville</option>
+    <option value="51" >Congo-Kinshasa</option>
+    <option value="52" >Cook (iles)</option>
+    <option value="53" >Corée</option>
+    <option value="54" >Corée Du Nord</option>
+    <option value="55" >Costa Rica</option>
+    <option value="56" >Côte d'Ivoire</option>
+    <option value="57" >Croatie</option>
+    <option value="58" >Cuba</option>
+    <option value="59" >Danemark</option>
+    <option value="60" >Djibouti</option>
+    <option value="61" >Dominique</option>
+    <option value="62" >Dominique Rep.</option>
+    <option value="63" >Dom-Tom</option>
+    <option value="64" >Egypte</option>
+    <option value="65" >El Salvador</option>
+    <option value="66" >Emirats Arabes</option>
+    <option value="67" >Equateur</option>
+    <option value="68" >Erythrée</option>
+    <option value="69" >Espagne</option>
+    <option value="70" >Estonie</option>
+    <option value="71" >Etats-Unis</option>
+    <option value="72" >Ethiopie</option>
+    <option value="73" >Féroé</option>
+    <option value="74" >Fidji</option>
+    <option value="75" >Finlande</option>
+    <option value="76" >Gabon</option>
+    <option value="77" >Gambie</option>
+    <option value="78" >Géorgie</option>
+    <option value="79" >Ghana</option>
+    <option value="80" >Gibraltar</option>
+    <option value="81" >Grèce</option>
+    <option value="82" >Grenade</option>
+    <option value="83" >Groenland</option>
+    <option value="84" >Guam</option>
+    <option value="85" >Guatemala</option>
+    <option value="86" >Guinée</option>
+    <option value="87" >Guinée-Bissao</option>
+    <option value="88" >Guinée équ.</option>
+    <option value="89" >Haïti</option>
+    <option value="90" >Honduras</option>
+    <option value="91" >Hong-Kong</option>
+    <option value="92" >Hongrie</option>
+    <option value="93" >Ile Christmas</option>
+    <option value="94" >Ile Maurice</option>
+    <option value="95" >Iles Mariannes</option>
+    <option value="96" >Iles Vierges</option>
+    <option value="97" >Iles Vierges Us</option>
+    <option value="98" >Inde</option>
+    <option value="99" >Indonésie</option>
+    <option value="100" >Iran</option>
+    <option value="101" >Iraq</option>
+    <option value="102" >Irlande</option>
+    <option value="103" >Islande</option>
+    <option value="104" >Israël</option>
+    <option value="105" >Italie</option>
+    <option value="106" >Jamaïque</option>
+    <option value="107" >Japon</option>
+    <option value="108" >Jordanie</option>
+    <option value="109" >Kazakhstan</option>
+    <option value="110" >Kenya</option>
+    <option value="111" >Kirghizistan</option>
+    <option value="112" >Kiribati</option>
+    <option value="113" >Koweït</option>
+    <option value="114" >Laos</option>
+    <option value="115" >Lesotho</option>
+    <option value="116" >Lettonie</option>
+    <option value="117" >Liban</option>
+    <option value="118" >Liberia</option>
+    <option value="119" >Libye</option>
+    <option value="120" >Liechtenstein</option>
+    <option value="121" >Lituanie</option>
+    <option value="122" >Luxembourg</option>
+    <option value="123" >Macao</option>
+    <option value="124" >Macédoine</option>
+    <option value="125" >Madagascar</option>
+    <option value="126" >Malaisie</option>
+    <option value="127" >Malawi</option>
+    <option value="128" >Maldives</option>
+    <option value="129" >Mali</option>
+    <option value="130" >Malte</option>
+    <option value="131" >Maroc</option>
+    <option value="132" >Marshall (iles)</option>
+    <option value="133" >Mauritanie</option>
+    <option value="134" >Mexique</option>
+    <option value="135" >Micronésie</option>
+    <option value="136" >Moldavie</option>
+    <option value="137" >Monaco</option>
+    <option value="138" >Mongolie</option>
+    <option value="139" >Montserrat</option>
+    <option value="140" >Mozambique</option>
+    <option value="141" >Myanmar</option>
+    <option value="142" >Namibie</option>
+    <option value="143" >Nauru</option>
+    <option value="144" >Népal</option>
+    <option value="145" >Nicaragua</option>
+    <option value="146" >Niger</option>
+    <option value="147" >Nigeria</option>
+    <option value="148" >Niue</option>
+    <option value="149" >Norfolk (ile De)</option>
+    <option value="150" >Norvège</option>
+    <option value="151" >Nouvelle-Calédonie</option>
+    <option value="152" >Nouvelle-Zélande</option>
+    <option value="153" >Oman</option>
+    <option value="154" >Ouganda</option>
+    <option value="155" >Ouzbékistan</option>
+    <option value="156" >Pakistan</option>
+    <option value="157" >Palau</option>
+    <option value="158" >Panama</option>
+    <option value="159" >Papouasie</option>
+    <option value="160" >Paraguay</option>
+    <option value="161" >Pays-Bas</option>
+    <option value="162" >Pérou</option>
+    <option value="163" >Philippines</option>
+    <option value="164" >Pologne</option>
+    <option value="165" >Polynésie</option>
+    <option value="166" >Porto Rico</option>
+    <option value="167" >Portugal</option>
+    <option value="168" >Qatar</option>
+    <option value="169" >Réunion</option>
+    <option value="170" >Roumanie</option>
+    <option value="171" >Royaume-Uni</option>
+    <option value="172" >Russie</option>
+    <option value="173" >Rwanda</option>
+    <option value="174" >Sainte-Hélène</option>
+    <option value="175" >Saint-Marin</option>
+    <option value="176" >Saint-Pierre-Et-Miq.</option>
+    <option value="177" >Saint-Vincent</option>
+    <option value="178" >Salomon (iles)</option>
+    <option value="179" >Samoa</option>
+    <option value="180" >Samoa Américaines</option>
+    <option value="181" >Sao Tomé</option>
+    <option value="182" >Sénégal</option>
+    <option value="183" >Serbie</option>
+    <option value="184" >Seychelles</option>
+    <option value="185" >Sierra Leone</option>
+    <option value="186" >Singapour</option>
+    <option value="187" >Slovaquie</option>
+    <option value="188" >Slovénie</option>
+    <option value="189" >Somalie</option>
+    <option value="190" >Soudan</option>
+    <option value="191" >Sri Lanka</option>
+    <option value="192" >St Christopher</option>
+    <option value="193" >Suède</option>
+    <option value="194" >Suisse</option>
+    <option value="195" >Suriname</option>
+    <option value="196" >Swaziland</option>
+    <option value="197" >Syrie</option>
+    <option value="198" >Tadjikistan</option>
+    <option value="199" >Taïwan</option>
+    <option value="200" >Tanzanie</option>
+    <option value="201" >Tchad</option>
+    <option value="202" >Tchèque Rep.</option>
+    <option value="203" >Thaïlande</option>
+    <option value="204" >Timor-Leste</option>
+    <option value="205" >Togo</option>
+    <option value="206" >Tokelau</option>
+    <option value="207" >Tonga</option>
+    <option value="208" >Trinité-Tobago</option>
+    <option value="209" >Tunisie</option>
+    <option value="210" >Turkménistan</option>
+    <option value="211" >Turks Et Caïcos</option>
+    <option value="212" >Turquie</option>
+    <option value="213" >Tuvalu</option>
+    <option value="214" >Ukraine</option>
+    <option value="215" >Uruguay</option>
+    <option value="216" >Vanuatu</option>
+    <option value="217" >Vatican</option>
+    <option value="218" >Venezuela</option>
+    <option value="219" >Vietnam</option>
+    <option value="220" >Yémen</option>
+    <option value="221" >Yougoslavie</option>
+    <option value="222" >Zambie</option>
+    <option value="223" >Zimbabwe</option>
+    <option value="224" >Autre</option>
+    </select>
+    <input type="hidden" name="userfield[field11_set]" value="1" />
+
+    <p class="description"></p>
+	</div>
+  </div>
+  <div class="blockrow">
+	<label>Code postal:</label>
+	<div class="rightcol">
+		<input type="text" class="primary textbox" name="userfield[field12]" id="cfield_12" value="" maxlength="5" tabindex="1" />
+<p class="description">Ce champ ne concerne que la France. Votre code postal ne sera pas affiché publiquement, seuls votre département et votre région seront visibles.</p>
+<input type="hidden" name="userfield[field12_set]" value="1" />
+	</div>
+  </div>
+  <div class="blockrow">
+	<label>Activité:</label>
+	<div class="rightcol">
+		<select class="primary1" name="userfield[field13]" id="cfield_13" tabindex="1">
+	  <option value="0" selected="selected"></option>
+		<option value="1" >Administrateur de base de données</option>
+    <option value="2" >Administrateur systèmes et réseaux</option>
+    <option value="3" >Analyste d'exploitation</option>
+    <option value="4" >Analyse système</option>
+    <option value="5" >Architecte de base de données</option>
+    <option value="6" >Architecte de système d'information</option>
+    <option value="7" >Architecte matériel</option>
+    <option value="8" >Architecte réseau</option>
+    <option value="9" >Architecte technique</option>
+    <option value="10" >Assistant aux utilisateurs</option>
+    <option value="11" >Auditeur informatique</option>
+    <option value="12" >Chargé d'affaire</option>
+    <option value="13" >Chargé de référencement</option>
+    <option value="14" >Chef de projet en SSII</option>
+    <option value="15" >Chef de projet MOA</option>
+    <option value="16" >Chef de projet NTIC</option>
+    <option value="17" >Chercheur en informatique</option>
+    <option value="18" >Conseil - Consultant en systèmes d'information</option>
+    <option value="19" >Conseil en assistance à maîtrise d'ouvrage</option>
+    <option value="20" >Consultant communication &amp; réseaux</option>
+    <option value="21" >Consultant CRM</option>
+    <option value="22" >Consultant E-Business</option>
+    <option value="23" >Consultant E-Learning</option>
+    <option value="24" >Consultant en Business Intelligence</option>
+    <option value="25" >Consultant en gestion de la relation client (GRC)</option>
+    <option value="26" >Consultant en sécurité</option>
+    <option value="27" >Consultant en technologies</option>
+    <option value="28" >Consultant ERP</option>
+    <option value="29" >Consultant fonctionnel</option>
+    <option value="30" >Consultant informatique</option>
+    <option value="31" >Consultant MOA</option>
+    <option value="32" >Consultant SAP</option>
+    <option value="33" >Collégien</option>
+    <option value="34" >Cyberdocumentaliste</option>
+    <option value="35" >Développeur .NET</option>
+    <option value="36" >Développeur COBOL</option>
+    <option value="37" >Développeur de jeux vidéo</option>
+    <option value="38" >Développeur décisionnel</option>
+    <option value="39" >Développeur en systèmes embarqués</option>
+    <option value="40" >Développeur informatique</option>
+    <option value="41" >Développeur Java</option>
+    <option value="42" >Développeur multimédia</option>
+    <option value="43" >Développeur Web</option>
+    <option value="44" >Directeur commercial</option>
+    <option value="45" >Directeur de projet</option>
+    <option value="46" >Directeur des systèmes d'information</option>
+    <option value="47" >Directeur technique</option>
+    <option value="48" >Enseignant</option>
+    <option value="49" >Enseignant Chercheur</option>
+    <option value="50" >Ergonome</option>
+    <option value="51" >Étudiant</option>
+    <option value="52" >Expert sécurité informatique</option>
+    <option value="53" >Formateur en informatique</option>
+    <option value="54" >Gestionnaire de parc micro-informatique</option>
+    <option value="55" >Ingénieur après-vente</option>
+    <option value="56" >Ingénieur avant-vente</option>
+    <option value="57" >Ingénieur commercial</option>
+    <option value="58" >Ingénieur de construction de réseaux</option>
+    <option value="59" >Ingénieur de déploiement réseaux</option>
+    <option value="60" >Ingénieur développement de composants</option>
+    <option value="61" >Ingénieur développement logiciels</option>
+    <option value="62" >Ingénieur développement matériel électronique</option>
+    <option value="63" >Ingénieur intégration</option>
+    <option value="64" >Ingénieur qualité méthodes</option>
+    <option value="65" >Ingénieur réglementation télécoms</option>
+    <option value="66" >Ingénieur sécurité</option>
+    <option value="67" >Ingénieur systèmes et réseaux</option>
+    <option value="68" >Ingénieur validation</option>
+    <option value="69" >Intégrateur Web</option>
+    <option value="70" >Lycéen</option>
+    <option value="71" >Paramétreur de progiciels</option>
+    <option value="72" >Rédacteur technique</option>
+    <option value="73" >Responsable de compte</option>
+    <option value="74" >Responsable de projet fonctionnel</option>
+    <option value="75" >Responsable de service informatique</option>
+    <option value="76" >Responsable de trafic</option>
+    <option value="77" >Responsable des études</option>
+    <option value="78" >Responsable d'exploitation informatique</option>
+    <option value="79" >Responsable du parc et des réseaux de télécommunication</option>
+    <option value="80" >Responsable d'un système d'information métier</option>
+    <option value="81" >Responsable en conduite du changement</option>
+    <option value="82" >Responsable marketing opérationnel</option>
+    <option value="83" >Responsable sécurité</option>
+    <option value="84" >Ressources humaines</option>
+    <option value="85" >Superviseur de Hotline</option>
+    <option value="86" >Technicien Help Desk</option>
+    <option value="87" >Technicien maintenance</option>
+    <option value="88" >Technicien réseau</option>
+    <option value="89" >Technicien réseaux et télécoms</option>
+    <option value="90" >Urbaniste</option>
+    <option value="91" >Webdesigner</option>
+    <option value="92" >Webmarketer</option>
+    <option value="93" >Webmaster</option>
+    <option value="94" >Webplanneur</option>
+</select>
+<input type="hidden" name="userfield[field13_set]" value="1" />
+<label for="userfield_field13_opt">Ou insérez votre choix ici:</label>
+<div>
+	<input type="text" class="primary1 textbox" id="userfield_field13_opt" name="userfield[field13_opt]" value="" tabindex="1" maxlength="100"  />
+</div>
+<p class="description"></p>
+	</div>
+</div>
+				
+
+	<div class="blockrow">
+		<label for="bd_month">Date de naissance:</label>
+		<div class="rightcol">
+			<ul class="multifield group floatcontainer">
+				<li>
+					<label for="bd_month">mois</label>
+					<select name="month" id="bd_month" tabindex="1">
+						<option value="-1" ></option>
+						<option value="01" >Janvier</option>
+						<option value="02" >Février</option>
+						<option value="03" >Mars</option>
+						<option value="04" >Avril</option>
+						<option value="05" >Mai</option>
+						<option value="06" >Juin</option>
+						<option value="07" >Juillet</option>
+						<option value="08" >Août</option>
+						<option value="09" >Septembre</option>
+						<option value="10" >Octobre</option>
+						<option value="11" >Novembre</option>
+						<option value="12" >Décembre</option>
+					</select>
+	      </li>
+				<li>
+					<label for="bd_day">jour</label>
+					<select name="day" id="bd_day" tabindex="1">
+						<option value="-1" ></option>
+						<option value="01" >1</option>
+						<option value="02" >2</option>
+						<option value="03" >3</option>
+						<option value="04" >4</option>
+						<option value="05" >5</option>
+						<option value="06" >6</option>
+						<option value="07" >7</option>
+						<option value="08" >8</option>
+						<option value="09" >9</option>
+						<option value="10" >10</option>
+						<option value="11" >11</option>
+						<option value="12" >12</option>
+						<option value="13" >13</option>
+						<option value="14" >14</option>
+						<option value="15" >15</option>
+						<option value="16" >16</option>
+						<option value="17" >17</option>
+						<option value="18" >18</option>
+						<option value="19" >19</option>
+						<option value="20" >20</option>
+						<option value="21" >21</option>
+						<option value="22" >22</option>
+						<option value="23" >23</option>
+						<option value="24" >24</option>
+						<option value="25" >25</option>
+						<option value="26" >26</option>
+						<option value="27" >27</option>
+						<option value="28" >28</option>
+						<option value="29" >29</option>
+						<option value="30" >30</option>
+						<option value="31" >31</option>
+					</select>
+				</li>
+				<li>
+					<label for="bd_year">année</label>
+					<input type="text" class="textbox numeric" name="year" value="" size="4" maxlength="4" id="bd_year"  tabindex="1"/>
+				</li>
+			</ul>
+			<input type="hidden" name="oldbirthday" value="" />
+		</div>
+		<p class="description">Votre date de naissance et votre âge sont affichés à divers endroits du forum. Seuls les administrateurs auront accès à votre date de naissance si vous choisissez de la cacher par l'option d'intimité ci-dessous.</p>
+		<label for="showbirthday">Intimité:</label>
+		<select name="showbirthday" class="primary1" id="showbirthday" tabindex="1">
+			<option value="0" >Cacher l'âge et la date de naissance</option>
+			<option value="1" >Afficher uniquement l'âge</option>
+			<option value="3" >Afficher uniquement le jour et mois de naissance</option>
+			<option value="2" selected="selected">Afficher l'âge et la date de naissance entière</option>
+		</select>
+	</div>
+
+			</div>
+		
+
+		
+
+		<h3 class="blocksubhead">Informations supplémentaires</h3>
+
+
+			<div class="blockrow">
+				<label>Acceptation des emails...</label>
+				<div class="rightcol">
+					<ul class="checkradio group">
+						<li>
+							<label for="cb_adminemail"><input type="checkbox" name="options[adminemail]" value="1" id="cb_adminemail" tabindex="1" checked="checked" /> Recevoir la newsletter hebdomadaire de Developpez.com</label>
+						</li>
+						
+							<li>
+								<label for="cb_showemail"><input type="checkbox" name="options[showemail]" value="1" id="cb_showemail" tabindex="1"  /> Accepter les emails envoyés par les membres</label>
+							</li>
+						
+					</ul>
+					<p class="description">De temps en temps, les administrateurs de ce forum peuvent souhaiter vous envoyer des emails. Si vous ne souhaitez pas recevoir ces emails, désactivez cette option.</p>
+				</div>
+			</div>
+
+			<div class="blockrow">
+	<label>Recevoir les communications des partenaires:</label>
+	<div class="rightcol">
+		<ul class="checkradio group">
+	<li>
+	<label for="cb_cpf_field9_1" style="">
+		<input type="checkbox" name="userfield[field9][]" value="1" id="cb_cpf_field9_1" tabindex="1" checked="checked"  /> Recevoir les communications des partenaires
+	</label>
+<p class="description"></p>
+</li>
+</ul>
+<input type="hidden" name="userfield[field9_set]" value="1" />
+
+<p class="description">Recevez occasionnellement des communications professionnelles des partenaires sur les sujets electroniques et informatique en rapport avec vos rubriques préférées. Votre adresse e-mail ne sera jamais transmise à des tiers. Si vous ne souhaitez pas les recevoir, désactivez cette option.</p>
+	</div>
+</div><div class="blockrow">
+	<label>Recevoir les communications de la technologie pas a pas:</label>
+	<div class="rightcol">
+		<ul class="checkradio group">
+	<li>
+	<label for="cb_cpf_field16_1" style="">
+		<input type="checkbox" name="userfield[field16][]" value="1" id="cb_cpf_field16_1" tabindex="1" checked="checked"  /> Recevoir les communications du Club Developpez.com
+	</label>
+<p class="description"></p>
+</li>
+</ul>
+<input type="hidden" name="userfield[field16_set]" value="1" />
+
+<p class="description">Recevez occasionnellement les communications du Club la technologie pas a pas à propos des améliorations majeures apportées au forum et au site.</p>
+	</div>
+</div><div class="blockrow">
+	<label>Recevoir les offres d'emploi de la technologie pas a pas:</label>
+	<div class="rightcol">
+		<ul class="checkradio group">
+	<li>
+	<label for="cb_cpf_field17_1" style="">
+		<input type="checkbox" name="userfield[field17][]" value="1" id="cb_cpf_field17_1" tabindex="1" checked="checked"  /> Recevoir les offres d'emploi de Developpez.com
+	</label>
+<p class="description"></p>
+</li>
+</ul>
+<input type="hidden" name="userfield[field17_set]" value="1" />
+
+<p class="description">Nous recherchons régulièrement des personnes afin de pourvoir certains postes au sein de l'équipe professionnelle de la technologie pas a pas. Si vous ne souhaitez pas recevoir ce genre d'offres, décochez cette option.</p>
+	</div>
+</div><div class="blockrow">
+	<label>Recevoir les offres d'emploi des partenaires de la technologie pas a pas:</label>
+	<div class="rightcol">
+		<ul class="checkradio group">
+	<li>
+	<label for="cb_cpf_field18_1" style="">
+		<input type="checkbox" name="userfield[field18][]" value="1" id="cb_cpf_field18_1" tabindex="1" checked="checked"  /> Recevoir les offres d'emploi des partenaires de la technologie pas a pas
+	</label>
+<p class="description"></p>
+</li>
+</ul>
+<input type="hidden" name="userfield[field18_set]" value="1" />
+
+<p class="description">Certains de nos partenaires peuvent nous demander de leur trouver des personnes correspondant à des postes à pourvoir dans leur entreprise. Dans ce cas nous contactons les personnes les plus susceptibles d'être intéressées par l'offre d'emploi en question. Si vous ne souhaitez pas recevoir ce genre d'offres, décochez cette option.</p>
+	</div>
+</div><div class="blockrow">
+	<label>Recevoir les communications des partenaires Emploi de la technologie pas a pas:</label>
+	<div class="rightcol">
+		<ul class="checkradio group">
+	<li>
+	<label for="cb_cpf_field27_1" style="">
+		<input type="checkbox" name="userfield[field27][]" value="1" id="cb_cpf_field27_1" tabindex="1" checked="checked"  /> Recevoir les communications des partenaires Emploi de la technologie pas a pas
+	</label>
+<p class="description"></p>
+</li>
+</ul>
+<input type="hidden" name="userfield[field27_set]" value="1" />
+
+<p class="description">Certains de nos partenaires peuvent souhaiter vous contacter pour vous faire part de leurs propositions globales de poste à pourvoir ou pour proposer des services destinés à vous aider à décrocher un poste. Si vous ne souhaitez pas recevoir ce genre d'offres, décochez cette option.</p>
+	</div>
+</div><div class="blockrow">
+	<label>Prénom:</label>
+	<div class="rightcol">
+		<input type="text" class="primary1 textbox" name="userfield[field6]" id="cfield_6" value="" maxlength="100" tabindex="1" />
+<p class="description">Ce champ est facultatif. Si vous le remplissez, merci de mettre une information exacte. Votre nom ne sera visible du public que si vous choisissez de rendre vos noms et prénoms visibles plus bas.</p>
+<input type="hidden" name="userfield[field6_set]" value="1" />
+	</div>
+</div><div class="blockrow">
+	<label>Nom:</label>
+	<div class="rightcol">
+		<input type="text" class="primary1 textbox" name="userfield[field5]" id="cfield_5" value="" maxlength="100" tabindex="1" />
+<p class="description">Ce champ est facultatif. Si vous le remplissez, merci de mettre une information exacte. Votre prénom ne sera visible du public que si vous choisissez de rendre vos noms et prénoms visibles plus bas.</p>
+<input type="hidden" name="userfield[field5_set]" value="1" />
+	</div>
+</div><div class="blockrow">
+	<label>Société:</label>
+	<div class="rightcol">
+		<input type="text" class="primary1 textbox" name="userfield[field21]" id="cfield_21" value="" maxlength="100" tabindex="1" />
+<p class="description">Ce champ est facultatif. Si vous le remplissez, merci de mettre une information exacte. Votre société ne sera visible du public que si vous choisissez de la rendre visible ci-dessous.</p>
+<input type="hidden" name="userfield[field21_set]" value="1" />
+	</div>
+</div><div class="blockrow">
+	<label>Confidentialité:</label>
+	<div class="rightcol">
+		<ul class="checkradio group">
+	<li>
+	<label for="cb_cpf_field22_1" style="">
+		<input type="checkbox" name="userfield[field22][]" value="1" id="cb_cpf_field22_1" tabindex="1" checked="checked"  /> Nom et prénom visibles du public
+	</label>
+<p class="description"></p>
+</li><li>
+	<label for="cb_cpf_field22_2" style="">
+		<input type="checkbox" name="userfield[field22][]" value="2" id="cb_cpf_field22_2" tabindex="1" checked="checked"  /> Société visible du public
+	</label>
+<p class="description"></p>
+</li>
+</ul>
+<input type="hidden" name="userfield[field22_set]" value="1" />
+
+<p class="description">Choisissez la visibilité de certaines de vos informations personnelles.</p>
+	</div>
+</div><div class="blockrow">
+	<label>Téléphone:</label>
+	<div class="rightcol">
+		<input type="text" class="primary1 textbox" name="userfield[field20]" id="cfield_20" value="" maxlength="50" tabindex="1" />
+<p class="description">Ce champ est facultatif. Si vous le remplissez, merci de mettre une information exacte. Votre numéro de téléphone ne sera pas visible des autres membres.</p>
+<input type="hidden" name="userfield[field20_set]" value="1" />
+	</div>
+</div><div class="blockrow">
+	<label>Secteur:</label>
+	<div class="rightcol">
+	<select class="primary1" name="userfield[field14]" id="cfield_14" tabindex="1">
+	  <option value="0" selected="selected"></option>
+		<option value="1" >Administration - Collectivité locale</option>
+    <option value="2" >Aéronautique - Marine - Espace - Armement</option>
+    <option value="3" >Agroalimentaire - Agriculture</option>
+    <option value="4" >Alimentation</option>
+    <option value="5" >Arts - Culture</option>
+    <option value="6" >Associations - ONG</option>
+    <option value="7" >Bâtiment</option>
+    <option value="8" >Biens de consommation</option>
+    <option value="9" >Boutique - Magasin</option>
+    <option value="10" >Communication - Médias</option>
+    <option value="11" >Conseil</option>
+    <option value="12" >Distribution</option>
+    <option value="13" >Enseignement</option>
+    <option value="14" >Finance</option>
+    <option value="15" >High Tech - Éditeur de logiciels</option>
+    <option value="16" >High Tech - Électronique et micro-électronique</option>
+    <option value="17" >High Tech - Matériel informatique</option>
+    <option value="18" >High Tech - Multimédia et Internet</option>
+    <option value="19" >High Tech - Opérateur de télécommunications</option>
+    <option value="20" >High Tech - Produits et services télécom et Internet</option>
+    <option value="21" >Bâtiment Travaux Publics</option>
+    <option value="22" >Industrie</option>
+    <option value="23" >Industrie Pharmaceutique</option>
+    <option value="24" >Santé</option>
+    <option value="25" >Service public</option>
+    <option value="26" >Services à domicile</option>
+    <option value="27" >Services de proximité</option>
+    <option value="28" >Tourisme - Loisirs</option>
+    <option value="29" >Transports</option>
+</select>
+<input type="hidden" name="userfield[field14_set]" value="1" />
+
+<p class="description"></p>
+	</div>
+</div>
+		</div>
+	</div>
+
+
+	<h2 class="blockhead">Règles du forum</h2>
+	<div class="blockbody formcontrols">
+		<div class="section">
+			<div class="blockrow">
+				<p class="label">Avant de procéder à votre inscription définitive, vous devez manifester votre accord avec les règles suivantes :</p>
+				<div id="forumrules" class="restore">
+					
+			
+					
+					<p><strong>Règles du forum</strong></p>
+
+<p>L'inscription à ce forum est gratuite ! Nous insistons sur le fait que vous devez respecter les règles détaillées ci-dessous. Si vous êtes d'accord avec les règles, veuillez cocher la case « J'ai lu les règles et j'accepte de les respecter » et cliquer sur le bouton « S'inscrire ». Si vous souhaitez annuler votre inscription, <a href="/forums/">cliquez ici pour retourner à l'accueil des forums</a>.</p>
+					<p>Bien que les administrateurs et les modérateurs de Forum du club la technologie pas a pas essaient d'écarter tout message répréhensible de ce forum, il leur est impossible de contrôler tous les messages. Ceux-ci expriment uniquement les opinions de leur auteur. Les propriétaires de Forum du club la technologie pas a pas n'entendent donner ni approbation, ni improbation des propos émis sur ce forum. Ils ne sauraient être considérés comme responsables du contenu des messages dont ils ne sont pas les auteurs.</p>
+
+<p>En acceptant ces règles, vous vous engagez à n'écrire aucun message à caractère obscène, vulgaire, discriminatoire, menaçant, diffamatoire, injurieux ou contraire aux lois et règlements en vigueur.</p>
+
+<p>Vous autorisez les propriétaires de Forum du club la technologie pas a pas à supprimer, modifier, déplacer ou fermer n'importe quel message pour n'importe quelle raison et sans autorisation préalable de votre part.</p>
+					
+				</div>
+			</div>
+			<div class="blockrow singlecheck">
+				<label for="cb_rules_agree" class="full"><input type="checkbox" name="agree" id="cb_rules_agree" tabindex="1" value="1" /> <strong>J'accepte de suivre les règles du club, et j'autorise le site à traiter mes données. Je note que je dispose d'un droit d'accès, d'édition et de suppression sur mes données, et que mes données ne seront pas transmises à un tiers sans mon consentement.</strong></label>
+			</div>
+		</div>
+	</div>
+
+	<div class="blockfoot actionbuttons">
+		<div class="group">
+			<input type="hidden" name="s" value="" />
+			<input type="hidden" name="securitytoken" value="guest" />
+			<input type="hidden" name="do" value="addmember" />
+			<input type="hidden" name="url" value="https://www.developpez.net/forums/" />
+			<input type="hidden" name="password_md5" />
+			<input type="hidden" name="passwordconfirm_md5" />
+			
+			
+			<input type="submit" class="button" value="Terminer l'inscription" tabindex="1" accesskey="s" />
+			<input type="reset" class="button" name="Reset" tabindex="1" value="Réinitialiser les champs" />
+		</div>
+	</div>
+
+</form>
+
+
+<div id="footer" class="floatcontainer footer">
+
+	<form action="https://www.developpez.net/forums/" method="get" id="footer_select" class="footer_select">
+
+		
+		
+		
+	</form>
+
+	<ul id="footer_links" class="footer_links">
+		<li><a href="" rel="nofollow" accesskey="9">Nous contacter</a></li>
+		<li><a href=""></a></li>
+		
+		
+		
+		
+		
+		
+		<li><a href="#Haut_de_page" onclick="document.location.hash='top'; return false;">Haut de page</a></li>
+	</ul>
+	
+
+
+
+  <div id="pagetitle">
+    <a name="Actualite"></a> 
+    <h1>Actualite</h1>
+    
+  </div>
+
+
+  <article>
+		<figure class="figure">
+			<img class="img-fluid rounded" onclick="aLaUne_url('https://web.developpez.com/actu/349623/Les-Big-Tech-ont-pris-en-otage-l-Internet-la-presse-qui-etait-complice-crie-aujourd-hui-a-l-injustice-d-apres-Martin-Andree-chercheur-en-medias-a-l-universite-de-Cologne/')" src="https://www.developpez.com/images/logos/90x90/web.png?1547822569" alt="" />
+		</figure>
+		<a class="titre" href="https://web.developpez.com/actu/349623/Les-Big-Tech-ont-pris-en-otage-l-Internet-la-presse-qui-etait-complice-crie-aujourd-hui-a-l-injustice-d-apres-Martin-Andree-chercheur-en-medias-a-l-universite-de-Cologne/">
+			Les Big Tech ont pris en otage Internet, la presse qui était complice crie aujourd'hui à l'injustice, d'après Martin Andree, chercheur en médias à l'université de Cologne							<span class="synopsis">Martin Andree, chercheur à l'université de Cologne, a publié le livre « Les grandes entreprises technologiques doivent disparaître » dans lequel il affirme que les géants de la technologie tels qu'Amazon, Google et Facebook ont pris le contrôle de l'Internet en établissant des monopoles impénétrables en recourant à des tactiques contraires à l'éthique. L'activité en ligne est concentrée sur une poignée de sites web, qui rassemblent 70 % du trafic, et le reste n'est qu'un vaste cimetière.</span>
+					</a>
+		
+	
+	
+		
+			<div class="infosPost">
+							
+						
+			<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d1580145-14/java/developpement-mobile-java/android/big-tech-ont-pris-otage-l-internet-presse-etait-complice-crie-aujourd-hui-l-injustice/#post11978430">
+				<i class="fas fa-comment-alt"></i>276 commentaires			</a>
+			
+			</div>		
+		
+	
+	</article>
+	
+			
+	
+		
+	<article>
+		<figure class="figure">
+			<img class="img-fluid rounded" onclick="aLaUne_url('https://microsoft.developpez.com/actu/349601/Comment-une-manoeuvre-comptable-astucieuse-a-conduit-a-une-facture-fiscale-de-29-milliards-de-dollars-pour-Microsoft-soit-le-plus-grand-controle-fiscal-jamais-realise-aux-Etats-Unis/')" src="https://www.developpez.com/images/logos/90x90/microsoft.png?1548078927" alt="" />
+		</figure>
+		<a class="titre" href="https://microsoft.developpez.com/actu/349601/Comment-une-manoeuvre-comptable-astucieuse-a-conduit-a-une-facture-fiscale-de-29-milliards-de-dollars-pour-Microsoft-soit-le-plus-grand-controle-fiscal-jamais-realise-aux-Etats-Unis/">
+			Comment une maneuvre comptable astucieuse a conduit à une facture fiscale de 29 milliards de dollars pour Microsoft, soit le plus grand contrôle fiscal jamais réalisé aux États-Unis							<span class="synopsis">Le plus grand audit de l'histoire de l'IRS est enfin passé à l'étape suivante : Microsoft a annoncé que l'agence lui avait notifié qu'elle devait 28,9 milliards de dollars d'arriérés d'impôts, plus des pénalités et des intérêts.  En 2005, Microsoft a vendu sa propriété intellectuelle à une usine de 85 personnes située dans une petite ville de Porto Rico, et conclu un accord fiscal favorable avec Porto Rico, puis a ensuite canalisé ses bénéfices vers l'usine.</span>
+					</a>
+		
+	
+	
+		
+			<div class="infosPost">
+							
+						
+			<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157135/systemes/windows/microsoft-conteste-facture-fiscale-29-milliards-dollars-aux-etats-unis-annonce-qu-fera-appel/#post11978340">
+				<i class="fas fa-comment-alt"></i>6 commentaires			</a>
+			
+			</div>		
+		
+	
+	</article>
+	
+		</div>
+	</div>
+		
+			<div class="colonneActu" data-title="Actualité Informatique">
+			
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/elon-musk-tesla.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://droit.developpez.com/actu/349743/Un-rapport-affirme-qu-Elon-Musk-envisage-de-retirer-X-de-l-Europe-en-raison-d-une-enquete-de-conformite-avec-la-loi-sur-les-services-numeriques-de-l-UE-mais-l-homme-d-affaires-dement-la-nouvelle/" title="https://www.developpez.net/forums/d2157165/webmasters-developpement-web/general-conception-web/droit/elon-musk-envisagerait-retirer-x-l-europe-raison-d-enquete-conformite-dsa-l-ue/#post11979091">
+			Un rapport affirme qu'Elon Musk envisage de retirer X de l'Europe en raison d'une enquête de conformité avec la loi sur les services numériques de l'UE, <span style="font-weight: normal">mais l'homme d'affaires dément la nouvelle</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157165/webmasters-developpement-web/general-conception-web/droit/elon-musk-envisagerait-retirer-x-l-europe-raison-d-enquete-conformite-dsa-l-ue/#post11979091">
+					<span class="comment"></span>12				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T17:48:00" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/union-europeenne.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://securite.developpez.com/actu/349739/Le-Controleur-europeen-de-la-protection-des-donnees-appelle-a-un-renforcement-des-garanties-en-matiere-de-protection-de-la-vie-privee-dans-le-projet-de-loi-de-l-UE-visant-a-soutenir-l-euro-numerique/" title="https://www.developpez.net/forums/d2137120-2/club-professionnels-informatique/actualites/l-ue-se-prepare-piloter-monnaie-numerique-banque-centrale-d-2028/#post11979000">
+			Le Contrôleur européen de la protection des données appelle à un renforcement des garanties en matière de protection de la vie privée<span style="font-weight: normal">, dans le projet de loi de l'UE visant à soutenir l'euro numérique</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2137120-2/club-professionnels-informatique/actualites/l-ue-se-prepare-piloter-monnaie-numerique-banque-centrale-d-2028/#post11979000">
+					<span class="comment"></span>23				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T17:06:49" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/programmation.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://programmation.developpez.com/actu/349580/C-en-passe-de-rattraper-Java-en-termes-de-popularite-du-langage-dans-l-edition-d-octobre-sur-le-Tiobe-Index-Paul-Jansen-donne-deux-mois-a-C-pour-depasser-Java-si-la-tendance-se-poursuit/" title="https://www.developpez.net/forums/d2157315/club-professionnels-informatique/actualites/csharp-passe-rattraper-java-termes-popularite-langage-l-edition-d-octobre-tiobe-index/#post11978282">
+			C# en passe de rattraper Java en termes de popularité du langage dans l'édition d'octobre sur le Tiobe Index<span style="font-weight: normal">, Paul Jansen donne deux mois à C# pour dépasser Java si la tendance se poursuit</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157315/club-professionnels-informatique/actualites/csharp-passe-rattraper-java-termes-popularite-langage-l-edition-d-octobre-tiobe-index/#post11978282">
+					<span class="comment"></span>9				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T14:19:56" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/intelligence-artificielle.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://intelligence-artificielle.developpez.com/actu/349731/Les-leaders-de-la-Tech-affirment-que-l-IA-changera-le-sens-du-travail-et-entrainera-des-changements-radicaux-sur-le-marche-de-l-emploi-mais-les-critiques-se-montrent-sceptiques-a-ce-sujet/" title="https://www.developpez.net/forums/d1947564-4/club-professionnels-informatique/actualites/leaders-tech-affirment-l-ia-changera-sens-travail-entrainera-changements-radicaux/#post11979028">
+			Les leaders de la Tech affirment que l'IA changera le sens du travail et entraînera des changements radicaux sur le marché de l'emploi, <span style="font-weight: normal">mais les critiques se montrent sceptiques à ce sujet</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d1947564-4/club-professionnels-informatique/actualites/leaders-tech-affirment-l-ia-changera-sens-travail-entrainera-changements-radicaux/#post11979028">
+					<span class="comment"></span>66				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T14:17:00" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/java.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://java.developpez.com/actu/349699/Oracle-annonce-la-disponibilite-generale-de-l-extension-Oracle-Java-Platform-pour-Visual-Studio-Code/" title="https://www.developpez.net/forums/d2157448/java/general-java/oracle-annonce-disponibilite-generale-l-extension-oracle-java-platform-visual-studio-code/#post11978897">
+			Oracle annonce la disponibilité générale de l'extension Oracle Java Platform pour Visual Studio Code		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157448/java/general-java/oracle-annonce-disponibilite-generale-l-extension-oracle-java-platform-visual-studio-code/#post11978897">
+					<span class="comment"></span>1				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T14:16:50" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/cryptomonnaie.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://droit.developpez.com/actu/349724/L-etau-legislatif-se-resserre-sur-les-cryptomonnaies-Binance-US-n-autorise-plus-le-retrait-d-USD-pour-les-utilisateurs/" title="https://www.developpez.net/forums/d2157479/webmasters-developpement-web/general-conception-web/droit/letau-legislatif-se-resserre-cryptomonnaies-binance-us-n-autorise-plus-retrait-d-usd/#post11979026">
+			L'étau législatif se resserre sur les cryptomonnaies, Binance US n'autorise plus le retrait d'USD pour les utilisateurs		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157479/webmasters-developpement-web/general-conception-web/droit/letau-legislatif-se-resserre-cryptomonnaies-binance-us-n-autorise-plus-retrait-d-usd/#post11979026">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T14:06:57" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/gartner.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://solutions-entreprise.developpez.com/actu/349708/Gartner-prevoit-que-les-depenses-informatiques-mondiales-augmenteront-de-8-pourcent-en-2024-les-investissements-dans-l-IA-soutiennent-cette-augmentation-mais-la-GenAI-n-aura-pas-encore-d-impact-avant-2025/" title="https://www.developpez.net/forums/d2157466/logiciels/solutions-d-entreprise/gartner-prevoit-depenses-informatiques-mondiales-augmenteront-8-2024-investissements/#post11978976">
+			Gartner prévoit que les dépenses informatiques mondiales augmenteront de 8 % en 2024<span style="font-weight: normal">, les investissements dans l'IA soutiennent cette augmentation, mais la GenAI n'aura pas encore d'impact avant 2025</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157466/logiciels/solutions-d-entreprise/gartner-prevoit-depenses-informatiques-mondiales-augmenteront-8-2024-investissements/#post11978976">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T14:05:45" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/google.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://reseau.developpez.com/actu/349697/Google-ouvre-Falcon-un-transport-materiel-fiable-a-faible-latence-a-l-ecosysteme-permettant-de-moderniser-Ethernet-afin-de-repondre-aux-exigences-de-mise-en-reseau-de-l-avenir-axe-sur-l-IA/" title="https://www.developpez.net/forums/d2157440/systemes/reseaux/google-ouvre-falcon-transport-materiel-fiable-faible-latence-l-ecosysteme/#post11978877">
+			Google ouvre Falcon, un transport matériel fiable à faible latence, à l'écosystème<span style="font-weight: normal">, permettant de moderniser Ethernet afin de répondre aux exigences de mise en réseau de l'avenir axé sur l'IA</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157440/systemes/reseaux/google-ouvre-falcon-transport-materiel-fiable-faible-latence-l-ecosysteme/#post11978877">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T14:02:06" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/apple.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://jeux.developpez.com/actu/349722/-Apple-aborde-l-aspect-social-de-Vision-Pro-comme-Meta-aurait-du-le-faire-depuis-le-debut-d-apres-Ben-Lang/" title="https://www.developpez.net/forums/d2157478/applications/developpement-2d-3d-jeux/quotapple-aborde-l-aspect-social-vision-pro-meta-aurait-faire-debutquot-d-apres-ben-lang/#post11979021">
+			"Apple aborde l'aspect social de Vision Pro comme Meta aurait dû le faire depuis le début"<span style="font-weight: normal">, d'après Ben Lang</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157478/applications/developpement-2d-3d-jeux/quotapple-aborde-l-aspect-social-vision-pro-meta-aurait-faire-debutquot-d-apres-ben-lang/#post11979021">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T14:00:33" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/intelligence-artificielle2.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://intelligence-artificielle.developpez.com/actu/349698/Le-createur-de-ChatGPT-OpenAI-est-en-pourparlers-pour-vendre-des-actions-d-employes-pour-une-valeur-de-86-milliards-de-dollars/" title="https://www.developpez.net/forums/d2157446/general-developpement/algorithme-mathematiques/intelligence-artificielle/createur-chatgpt-openai-pourparlers-vendre-actions-d-employes-86-milliards/#post11978894">
+			Le créateur de ChatGPT, OpenAI, est en pourparlers pour vendre des actions d'employés pour une valeur de 86 milliards de dollars		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157446/general-developpement/algorithme-mathematiques/intelligence-artificielle/createur-chatgpt-openai-pourparlers-vendre-actions-d-employes-86-milliards/#post11978894">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T13:57:00" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/apple.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://hardware.developpez.com/actu/349711/La-demande-de-MacBook-a-chute-de-maniere-significative-et-les-livraisons-de-MacBook-d-Apple-diminueront-d-environ-30-pourcent-par-an-pour-atteindre-17-millions-d-unites-en-2023-selon-un-analyste-d-Apple/" title="https://www.developpez.net/forums/d2157469/systemes/hardware/demande-macbook-chute-maniere-significative-livraisons-diminueront-d-environ-30/#post11978986">
+			La demande de MacBook a chuté de manière significative et les livraisons de MacBook d'Apple diminueront d'environ 30 % par an, pour atteindre 17 millions d'unités en 2023<span style="font-weight: normal">, selon un analyste d'Apple</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157469/systemes/hardware/demande-macbook-chute-maniere-significative-livraisons-diminueront-d-environ-30/#post11978986">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T13:54:01" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/onlyoffice.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://onlyoffice.developpez.com/actu/349717/ONLYOFFICE-lance-la-version-7-5-avec-un-nouvel-editeur-PDF-coupure-des-mots-automatique-sauts-de-page-fleches-de-tracage-dans-le-tableur-et-autres/" title="https://www.developpez.net/forums/d2157398/logiciels/solutions-d-entreprise/onlyoffice/onlyoffice-lance-version-75-nouvel-editeur-pdf-coupure-mots-automatique-autres/#post11978691">
+			ONLYOFFICE lance la version 7.5 avec un nouvel éditeur PDF<span style="font-weight: normal">, coupure des mots automatique, sauts de page, flèches de traçage dans le tableur, et autres</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157398/logiciels/solutions-d-entreprise/onlyoffice/onlyoffice-lance-version-75-nouvel-editeur-pdf-coupure-mots-automatique-autres/#post11978691">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T12:51:03" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/chiffrement.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://securite.developpez.com/actu/349712/Un-mathematicien-avertit-que-la-NSA-pourrait-affaiblir-le-chiffrement-de-nouvelle-generation-en-s-impliquant-dans-le-developpement-de-nouvelles-normes-de-chiffrement-pour-les-ordinateurs-quantiques/" title="https://www.developpez.net/forums/d2108130-18/club-professionnels-informatique/actualites/etats-membres-l-ue-ne-parviennent-toujours-se-mettre-d-accord-chiffrement-bout-bout/#post11978994">
+			Un mathématicien avertit que la NSA pourrait affaiblir le chiffrement de nouvelle génération<span style="font-weight: normal">, en s'impliquant dans le développement de nouvelles normes de chiffrement pour les ordinateurs quantiques</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2108130-18/club-professionnels-informatique/actualites/etats-membres-l-ue-ne-parviennent-toujours-se-mettre-d-accord-chiffrement-bout-bout/#post11978994">
+					<span class="comment"></span>352				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T11:49:00" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/cryptomonnaie.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://droit.developpez.com/actu/349707/L-histoire-de-Jimmy-Zhong-qui-a-vole-et-perdu-plus-de-3-milliards-de-dollars-en-bitcoin-a-cause-d-une-erreur-critique-suite-au-piratage-de-Silk-Road/" title="https://www.developpez.net/forums/d2157465/club-professionnels-informatique/actualites/l-histoire-jimmy-zhong-vole-perdu-plus-3-milliards-dollars-bitcoin/#post11978972">
+			L'histoire de Jimmy Zhong, qui a volé et perdu plus de 3 milliards de dollars en bitcoin à cause d'une erreur critique,<span style="font-weight: normal"> suite au piratage de Silk Road</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157465/club-professionnels-informatique/actualites/l-histoire-jimmy-zhong-vole-perdu-plus-3-milliards-dollars-bitcoin/#post11978972">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T11:06:00" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/cryptomonnaie.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="/actu/349690/L-ecosysteme-blockchain-Joseon-devient-la-premiere-cyber-nation-reconnue-par-un-pays-membre-des-Nations-Unies-et-divise-l-opinion-sur-la-pertinence-de-la-notion-de-pays-virtuel/" title="https://www.developpez.net/forums/d2157437/club-professionnels-informatique/actualites/lecosysteme-blockchain-joseon-devient-premiere-cyber-nation-reconnue-pays-membre-nations-unies/#post11978871">
+			L'écosystème blockchain Joseon devient la première cyber-nation reconnue par un pays membre des Nations Unies<span style="font-weight: normal"> et divise l'opinion sur la pertinence de la notion de pays virtuel</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157437/club-professionnels-informatique/actualites/lecosysteme-blockchain-joseon-devient-premiere-cyber-nation-reconnue-pays-membre-nations-unies/#post11978871">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T09:00:00" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/intelligence-artificielle2.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://intelligence-artificielle.developpez.com/actu/349700/D-ici-2025-plus-de-la-moitie-des-comptes-OnlyFans-les-plus-populaires-seront-des-modeles-generes-par-l-intelligence-artificielle-pilotes-en-secret-par-des-hommes-d-apres-Alex-Valaitis/" title="https://www.developpez.net/forums/d2157449/general-developpement/algorithme-mathematiques/intelligence-artificielle/d-2025-plus-moitie-comptes-onlyfans-plus-populaires-seront-modeles-generes-l-ia/#post11978900">
+			D'ici 2025, plus de la moitié des comptes OnlyFans les plus populaires seront des modèles générés par l'intelligence artificielle pilotés en secret par des hommes,<span style="font-weight: normal"> d'après Alex Valaitis</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157449/general-developpement/algorithme-mathematiques/intelligence-artificielle/d-2025-plus-moitie-comptes-onlyfans-plus-populaires-seront-modeles-generes-l-ia/#post11978900">
+					<span class="comment"></span>1				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T09:00:00" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/intelligence-artificielle2.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://intelligence-artificielle.developpez.com/actu/349701/L-AGI-serait-deja-presente-les-modeles-d-IA-tels-que-ChatGPT-Bard-LLaMA-et-Claude-ont-franchi-un-seuil-que-les-generations-precedentes-d-IA-n-ont-jamais-atteint-selon-des-chercheurs/" title="https://www.developpez.net/forums/d1897419-4/club-professionnels-informatique/actualites/lintelligence-artificielle-generale-serait-deja-presente-d-apres-chercheurs/#post11978896">
+			L'AGI serait déjà présente, « les modèles d'IA tels que ChatGPT, Bard, LLaMA et Claude ont franchi un seuil que les générations précédentes d'IA n'ont jamais atteint»,<span style="font-weight: normal"> selon des chercheurs</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d1897419-4/club-professionnels-informatique/actualites/lintelligence-artificielle-generale-serait-deja-presente-d-apres-chercheurs/#post11978896">
+					<span class="comment"></span>80				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T06:55:00" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/intelligence-artificielle2.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://intelligence-artificielle.developpez.com/actu/349630/Il-est-presque-inevitable-que-l-IA-provoquera-un-krach-financier-d-ici-dix-ans-declare-Gary-Gensler-president-de-la-SEC/" title="https://www.developpez.net/forums/d2157356/general-developpement/algorithme-mathematiques/intelligence-artificielle/quotpresque-inevitablequot-l-ia-provoquera-krach-financier-d-dix-ans-declare-gary-gensler/#post11978500">
+			Il est "presque inévitable" que l'IA provoquera un krach financier d'ici dix ans<span style="font-weight: normal">, déclare Gary Gensler, président de la SEC</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157356/general-developpement/algorithme-mathematiques/intelligence-artificielle/quotpresque-inevitablequot-l-ia-provoquera-krach-financier-d-dix-ans-declare-gary-gensler/#post11978500">
+					<span class="comment"></span>1				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T03:40:13" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/justice.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://droit.developpez.com/actu/349688/Les-proches-de-plus-de-60-jeunes-decedes-d-une-overdose-de-fentanyl-intentent-une-action-en-justice-contre-Snapchat-Snapchat-est-le-meilleur-moyen-de-distribuer-de-la-drogue-selon-la-plainte/" title="https://www.developpez.net/forums/d2157432/webmasters-developpement-web/general-conception-web/droit/proches-plus-60-jeunes-decedes-d-overdose-fentanyl-intentent-action-justice-contre/#post11978853">
+			Les proches de plus de 60 jeunes décédés d'une overdose de fentanyl intentent une action en justice contre Snapchat<span style="font-weight: normal">, "Snapchat est le meilleur moyen de distribuer de la drogue" selon la plainte</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157432/webmasters-developpement-web/general-conception-web/droit/proches-plus-60-jeunes-decedes-d-overdose-fentanyl-intentent-action-justice-contre/#post11978853">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T03:38:59" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/intelligence-artificielle2.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://intelligence-artificielle.developpez.com/actu/349687/La-societe-chinoise-Baidu-specialisee-dans-les-moteurs-de-recherche-et-l-IA-a-devoile-une-nouvelle-version-de-son-modele-d-intelligence-artificielle-Ernie-4-0-affirmant-qu-il-rivalise-avec-GPT-4/" title="https://www.developpez.net/forums/d2157431/general-developpement/algorithme-mathematiques/intelligence-artificielle/moteur-recherche-chinois-baidu-devoile-modele-d-intelligence-artificielle-ernie-40-affirmant/#post11978852">
+			La société chinoise Baidu, spécialisée dans les moteurs de recherche et l'IA, a dévoilé une nouvelle version de son modèle d'intelligence artificielle Ernie 4.0<span style="font-weight: normal">, affirmant qu'il rivalise avec GPT-4</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157431/general-developpement/algorithme-mathematiques/intelligence-artificielle/moteur-recherche-chinois-baidu-devoile-modele-d-intelligence-artificielle-ernie-40-affirmant/#post11978852">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T03:37:14" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/reseau.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://reseau.developpez.com/actu/349691/Plus-d-un-million-de-satellites-orbiteraient-bientot-autour-de-notre-planete-les-scientifiques-craignent-que-les-mega-constellations-n-entrainent-une-pollution-lumineuse-et-des-accidents-spatiaux/" title="https://www.developpez.net/forums/d1493803-32/club-professionnels-informatique/actualites/spacex-veut-lancer-pres-30-000-satellites-bande-w-s-appuyant-royaume-tonga-siege/#post11978866">
+			Plus d'un million de satellites orbiteraient bientôt autour de notre planète<span style="font-weight: normal">, les scientifiques craignent que les "méga-constellations" n'entraînent une pollution lumineuse et des accidents spatiaux</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d1493803-32/club-professionnels-informatique/actualites/spacex-veut-lancer-pres-30-000-satellites-bande-w-s-appuyant-royaume-tonga-siege/#post11978866">
+					<span class="comment"></span>632				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T03:32:27" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/nvidia.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://intelligence-artificielle.developpez.com/actu/349689/Foxconn-et-Nvidia-prevoient-de-creer-des-usines-d-intelligence-artificielle-IA-pour-former-des-robots-et-des-voitures-autonomes/" title="https://www.developpez.net/forums/d2157433/general-developpement/algorithme-mathematiques/intelligence-artificielle/foxconn-nvidia-prevoient-creer-usines-d-intelligence-artificielle-ia-former-robots/#post11978864">
+			Foxconn et Nvidia prévoient de créer des usines d'intelligence artificielle (IA) pour former des robots et des voitures autonomes		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157433/general-developpement/algorithme-mathematiques/intelligence-artificielle/foxconn-nvidia-prevoient-creer-usines-d-intelligence-artificielle-ia-former-robots/#post11978864">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-19T03:31:07" class="fontColorDate">
+					19/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/office.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://microsoft.developpez.com/actu/349682/Microsoft-s-apprete-a-faire-d-Amazon-un-client-de-ses-outils-cloud-365-dans-le-cadre-d-un-contrat-lucratif-d-un-milliard-de-dollars-selon-un-document-interne/" title="https://www.developpez.net/forums/d2157428/logiciels/microsoft-office/microsoft-s-apprete-faire-d-amazon-client-suite-productivite-365-basee-cloud/#post11978833">
+			Microsoft s'apprête à faire d'Amazon un client de ses outils cloud 365 dans le cadre d'un contrat lucratif d'un milliard de dollars, <span style="font-weight: normal">selon un document interne</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157428/logiciels/microsoft-office/microsoft-s-apprete-faire-d-amazon-client-suite-productivite-365-basee-cloud/#post11978833">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-18T18:26:00" class="fontColorDate">
+					18/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/intelligence-artificielle2.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://intelligence-artificielle.developpez.com/actu/349680/-C-est-une-secte-le-mouvement-pro-IA-baptise-accelerationnisme-efficace-gagne-du-terrain-a-la-Silicon-Valley-Ses-adeptes-pronent-une-croissance-technologique-sans-limites/" title="https://www.developpez.net/forums/d2157427/club-professionnels-informatique/actualites/c-secte-mouvement-pro-ia-accelerationnisme-efficace-gagne-terrain/#post11978832">
+			« C'est une secte » : le mouvement pro-IA baptisé « accélérationnisme efficace » gagne du terrain à la Silicon Valley. <span style="font-weight: normal">Ses adeptes prônent une croissance technologique sans limites</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157427/club-professionnels-informatique/actualites/c-secte-mouvement-pro-ia-accelerationnisme-efficace-gagne-terrain/#post11978832">
+					<span class="comment"></span>2				</a>
+				<time itemprop="dateCreated" datetime="2023-10-18T18:16:00" class="fontColorDate">
+					18/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/intelligence-artificielle2.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://intelligence-artificielle.developpez.com/actu/349677/GPT-4-peut-etre-plus-facilement-incite-que-d-autres-LLM-a-debiter-des-textes-toxiques-et-tendancieux-etant-plus-susceptible-de-suivre-les-instructions-qui-contournent-les-mesures-de-securite/" title="https://www.developpez.net/forums/d2157410/general-developpement/algorithme-mathematiques/intelligence-artificielle/gpt-4-etre-plus-facilement-incite-d-autres-llm-debiter-textes-toxiques-tendancieux/#post11978732">
+			GPT-4 peut être plus facilement incité que d'autres LLM à débiter des textes toxiques et tendancieux<span style="font-weight: normal">, étant plus susceptible de suivre les instructions qui contournent les mesures de sécurité</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157410/general-developpement/algorithme-mathematiques/intelligence-artificielle/gpt-4-etre-plus-facilement-incite-d-autres-llm-debiter-textes-toxiques-tendancieux/#post11978732">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-18T14:37:08" class="fontColorDate">
+					18/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/twitterx.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://mobiles.developpez.com/actu/349672/X-commence-a-facturer-aux-nouveaux-utilisateurs-1-dollar-par-an-pour-l-envoi-de-tweets-le-programme-Not-a-Bot-est-teste-en-Nouvelle-Zelande-et-aux-Philippines/" title="https://www.developpez.net/forums/d2129992-79/club-professionnels-informatique/actualites/x-commence-facturer-aux-nouveaux-utilisateurs-1-dollar-an-l-envoi-tweets/#post11978721">
+			X commence à facturer aux nouveaux utilisateurs 1 dollar par an pour l'envoi de tweets<span style="font-weight: normal">, le programme "Not a Bot" est testé en Nouvelle-Zélande et aux Philippines</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2129992-79/club-professionnels-informatique/actualites/x-commence-facturer-aux-nouveaux-utilisateurs-1-dollar-an-l-envoi-tweets/#post11978721">
+					<span class="comment"></span>1565				</a>
+				<time itemprop="dateCreated" datetime="2023-10-18T14:04:15" class="fontColorDate">
+					18/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/securite2.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://securite.developpez.com/actu/349665/Les-entreprises-sont-pretes-a-abandonner-les-mots-de-passe-dans-les-cinq-annees-a-venir-moins-de-25-pourcent-des-connexions-des-entreprises-s-effectueront-via-des-mots-de-passe/" title="https://www.developpez.net/forums/d2157394/systemes/securite/entreprises-pretes-abandonner-mots-passe-selon-nouveau-rapport-lalliance-fido/#post11978676">
+			Les entreprises sont prêtes à abandonner les mots de passe : dans les cinq années à venir, moins de 25% des connexions des entreprises s'effectueront via des mots de passe		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157394/systemes/securite/entreprises-pretes-abandonner-mots-passe-selon-nouveau-rapport-lalliance-fido/#post11978676">
+					<span class="comment"></span>2				</a>
+				<time itemprop="dateCreated" datetime="2023-10-18T13:30:19" class="fontColorDate">
+					18/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/intelligence-artificielle2.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://intelligence-artificielle.developpez.com/actu/349670/L-effet-placebo-peut-il-influencer-notre-perception-de-l-IA-Une-etude-suggere-que-cet-effet-est-resistant-aux-descriptions-negatives-de-l-IA-et-pourrait-impacter-sur-l-experience-utilisateur/" title="https://www.developpez.net/forums/d2157407/general-developpement/algorithme-mathematiques/intelligence-artificielle/leffet-placebo-peut-il-influencer-perception-lia/#post11978718">
+			L'effet placebo peut-il influencer notre perception de l'IA ? Une étude suggère que cet effet est résistant aux descriptions négatives de l'IA,<span style="font-weight: normal"> et pourrait impacter sur l'expérience utilisateur</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157407/general-developpement/algorithme-mathematiques/intelligence-artificielle/leffet-placebo-peut-il-influencer-perception-lia/#post11978718">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-18T12:44:00" class="fontColorDate">
+					18/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/loi.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://droit.developpez.com/actu/349668/Google-demande-au-Congres-americain-de-ne-pas-interdire-l-acces-des-enfants-et-des-adolescents-aux-medias-sociaux-et-propose-un-cadre-legislatif-pour-assurer-la-securite-des-mineurs-en-ligne/" title="https://www.developpez.net/forums/d2043653-5/club-professionnels-informatique/actualites/google-demande-congres-americain-ne-interdire-l-acces-adolescents-aux-medias-sociaux/#post11978687">
+			Google demande au Congrès américain de ne pas interdire l'accès des enfants et des adolescents aux médias sociaux, <span style="font-weight: normal">et propose un "cadre législatif" pour assurer la sécurité des mineurs en ligne</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2043653-5/club-professionnels-informatique/actualites/google-demande-congres-americain-ne-interdire-l-acces-adolescents-aux-medias-sociaux/#post11978687">
+					<span class="comment"></span>97				</a>
+				<time itemprop="dateCreated" datetime="2023-10-18T10:46:00" class="fontColorDate">
+					18/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/elon-musk-tesla.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://mobiles.developpez.com/actu/349666/Un-an-apres-l-acquisition-d-Elon-Musk-le-trafic-et-les-utilisateurs-actifs-mensuels-sont-en-baisse-sur-X-selon-un-rapport-Point-positif-la-page-Twitter-X-de-Musk-n-a-jamais-autant-ete-consultee/" title="https://www.developpez.net/forums/d2153076-6/club-professionnels-informatique/actualites/recettes-publicitaires-x-ont-baisse-mois-aux-usa-qu-elon-musk-rachete-l-entreprise/#post11978680">
+			Un an après l'acquisition d'Elon Musk, le trafic et les utilisateurs actifs mensuels sont en baisse sur X, selon un rapport. <span style="font-weight: normal">Point positif : la page Twitter/X de Musk n'a jamais autant été consultée</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2153076-6/club-professionnels-informatique/actualites/recettes-publicitaires-x-ont-baisse-mois-aux-usa-qu-elon-musk-rachete-l-entreprise/#post11978680">
+					<span class="comment"></span>101				</a>
+				<time itemprop="dateCreated" datetime="2023-10-18T09:52:00" class="fontColorDate">
+					18/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/youtube.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://web.developpez.com/actu/349628/FreeTube-un-client-open-source-permettant-de-naviguer-sur-YouTube-sans-publicite-et-sans-etre-suivi-par-Google-il-devient-populaire-alors-que-YouTube-tente-d-interdire-les-bloqueurs-de-publicite/" title="https://www.developpez.net/forums/d2150773-2/webmasters-developpement-web/general-conception-web/freetube-client-open-source-permettant-d-utiliser-youtube-publicite-etre-suivi-google/#post11978462">
+			FreeTube : un client open source permettant de naviguer sur YouTube sans publicité et sans être suivi par Google, <span style="font-weight: normal">il devient populaire alors que YouTube tente d'interdire les bloqueurs de publicité</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2150773-2/webmasters-developpement-web/general-conception-web/freetube-client-open-source-permettant-d-utiliser-youtube-publicite-etre-suivi-google/#post11978462">
+					<span class="comment"></span>44				</a>
+				<time itemprop="dateCreated" datetime="2023-10-18T03:23:36" class="fontColorDate">
+					18/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/meta.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://hardware.developpez.com/actu/349655/Meta-Quest-3-une-realite-virtuelle-de-l-impossible-reparation-absence-de-manuels-de-pieces-detachees-OEM-et-de-tout-signe-de-reparabilite-d-apres-iFixit/" title="https://www.developpez.net/forums/d2157373/systemes/hardware/meta-quest-3-realite-virtuelle-folie-reparations-absence-manuels-pieces-detachees-oem/#post11978560">
+			Meta Quest 3, une réalité virtuelle de l'impossible réparation :<span style="font-weight: normal"> absence de manuels, de pièces détachées OEM et de tout signe de réparabilité, d'après iFixit</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157373/systemes/hardware/meta-quest-3-realite-virtuelle-folie-reparations-absence-manuels-pieces-detachees-oem/#post11978560">
+					<span class="comment"></span>1				</a>
+				<time itemprop="dateCreated" datetime="2023-10-18T03:22:20" class="fontColorDate">
+					18/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/biden.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://hardware.developpez.com/actu/349658/Joe-Biden-envisage-d-interdire-a-la-Chine-l-acces-aux-puces-Nvidia-et-d-etendre-les-restrictions-a-d-autres-pays/" title="https://www.developpez.net/forums/d2091252-6/club-professionnels-informatique/actualites/l-ue-approuve-l-octroi-22-mds-d-euros-microelectronique-cadre-projet-loi-chips-act/#post11978566">
+			Joe Biden envisage d'interdire à la Chine l'accès aux puces Nvidia et d'étendre les restrictions à d'autres pays		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2091252-6/club-professionnels-informatique/actualites/l-ue-approuve-l-octroi-22-mds-d-euros-microelectronique-cadre-projet-loi-chips-act/#post11978566">
+					<span class="comment"></span>106				</a>
+				<time itemprop="dateCreated" datetime="2023-10-18T03:16:00" class="fontColorDate">
+					18/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/intelligence-artificielle.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://intelligence-artificielle.developpez.com/actu/349656/L-acteur-Stephen-Fry-met-en-garde-contre-les-dangers-potentiels-du-clonage-de-la-voix-a-l-aide-des-technologies-d-IA-il-a-laisse-entendre-que-cela-pourrait-etre-le-signe-d-un-futur-dystopique/" title="https://www.developpez.net/forums/d2150502-2/general-developpement/algorithme-mathematiques/intelligence-artificielle/l-acteur-stephen-fry-met-garde-contre-dangers-potentiels-clonage-voix-l-aide-outils-d-ia/#post11978562">
+			L'acteur Stephen Fry met en garde contre les dangers potentiels du clonage de la voix à l'aide des technologies d'IA, <span style="font-weight: normal">il a laissé entendre que cela pourrait être le signe d'un futur dystopique</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2150502-2/general-developpement/algorithme-mathematiques/intelligence-artificielle/l-acteur-stephen-fry-met-garde-contre-dangers-potentiels-clonage-voix-l-aide-outils-d-ia/#post11978562">
+					<span class="comment"></span>21				</a>
+				<time itemprop="dateCreated" datetime="2023-10-17T16:07:00" class="fontColorDate">
+					17/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/cloud-computing.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://cloud-computing.developpez.com/actu/349649/Cloudera-est-condamne-a-payer-240-millions-de-dollars-dans-le-cadre-d-une-affaire-de-brevets-concernant-la-technologie-de-stockage-cloud/" title="https://www.developpez.net/forums/d2157367/logiciels/solutions-d-entreprise/cloud-computing/cloudera-condamne-payer-240-mns-cadre-d-affaire-brevets-stockage-cloud/#post11978549">
+			Cloudera est condamné à payer 240 millions de dollars dans le cadre d'une affaire de brevets concernant la technologie de stockage cloud		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157367/logiciels/solutions-d-entreprise/cloud-computing/cloudera-condamne-payer-240-mns-cadre-d-affaire-brevets-stockage-cloud/#post11978549">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-17T16:06:12" class="fontColorDate">
+					17/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/linkedin.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://microsoft.developpez.com/actu/349625/Microsoft-LinkedIn-confirme-la-suppression-de-668-emplois-supplementaires-portant-le-total-a-pres-de-1-400-cette-annee-la-plupart-des-suppressions-touchent-le-coeur-de-l-activite-de-l-entreprise/" title="https://www.developpez.net/forums/d2157345/systemes/windows/microsoft-linkedin-confirme-suppression-668-emplois-supplementaires-portant-total-pres/#post11978432">
+			Microsoft LinkedIn confirme la suppression de 668 emplois supplémentaires, portant le total à près de 1&nbsp;400 cette année<span style="font-weight: normal">, la plupart des suppressions touchent le cœur de l'activité de l'entreprise</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157345/systemes/windows/microsoft-linkedin-confirme-suppression-668-emplois-supplementaires-portant-total-pres/#post11978432">
+					<span class="comment"></span>1				</a>
+				<time itemprop="dateCreated" datetime="2023-10-17T13:46:53" class="fontColorDate">
+					17/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/bitcoin.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://securite.developpez.com/actu/349627/Le-gouvernement-americain-est-devenu-l-un-des-plus-gros-detenteurs-de-bitcoins-ayant-acquis-environ-200-000-bitcoins-d-une-valeur-approximative-de-5-milliards-de-dollars/" title="https://www.developpez.net/forums/d2157347/systemes/securite/gouvernement-americain-devenu-l-plus-gros-detenteurs-bitcoins/#post11978440">
+			Le gouvernement américain est devenu l'un des plus gros détenteurs de bitcoins<span style="font-weight: normal">, ayant acquis environ 200&nbsp;000 bitcoins, d'une valeur approximative de 5 milliards de dollars</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157347/systemes/securite/gouvernement-americain-devenu-l-plus-gros-detenteurs-bitcoins/#post11978440">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-17T13:44:06" class="fontColorDate">
+					17/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/apple.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://mobiles.developpez.com/actu/349626/L-action-Apple-chute-a-la-suite-d-informations-selon-lesquelles-Huawei-vendrait-plus-que-les-nouveaux-telephones-Apple-en-Chine-selon-Counterpoint-Research-et-des-analystes-de-Jefferies/" title="https://www.developpez.net/forums/d2157346/systemes/autres-systemes/mobiles/l-action-apple-chute-suite-d-informations-selon-lesquelles-huawei-vendrait-plus-nouveaux/#post11978434">
+			L'action Apple chute à la suite d'informations selon lesquelles Huawei vendrait plus que les nouveaux téléphones Apple en Chine<span style="font-weight: normal">, selon Counterpoint Research et des analystes de Jefferies</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157346/systemes/autres-systemes/mobiles/l-action-apple-chute-suite-d-informations-selon-lesquelles-huawei-vendrait-plus-nouveaux/#post11978434">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-17T13:41:16" class="fontColorDate">
+					17/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/robot.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://embarque.developpez.com/actu/349631/Hadrian-X-un-robot-briqueteur-capable-de-poser-300-briques-a-l-heure-entre-en-service-aux-Etats-Unis/" title="https://www.developpez.net/forums/d2157357/general-developpement/programmation-systeme/embarque/hadrian-x-robot-briqueteur-capable-poser-300-briques-l-heure-entre-service-aux-etats-unis/#post11978508">
+			Hadrian X, un robot-briqueteur capable de poser 300 briques à l'heure, entre en service aux États-Unis		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157357/general-developpement/programmation-systeme/embarque/hadrian-x-robot-briqueteur-capable-poser-300-briques-l-heure-entre-service-aux-etats-unis/#post11978508">
+					<span class="comment"></span>9				</a>
+				<time itemprop="dateCreated" datetime="2023-10-17T13:39:44" class="fontColorDate">
+					17/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/chiffrement.png" alt="Actualité" />
+		</figure>
+		<a class="titre" href="https://securite.developpez.com/actu/349635/Les-Etats-membres-de-l-UE-ne-parviennent-toujours-pas-a-se-mettre-d-accord-sur-le-chiffrement-de-bout-en-bout-les-opinions-divergent-quant-a-la-protection-des-droits-et-la-surveillance-de-masse/" title="https://www.developpez.net/forums/d2108130-18/club-professionnels-informatique/actualites/etats-membres-l-ue-ne-parviennent-toujours-se-mettre-d-accord-chiffrement-bout-bout/#post11978514">
+			Les États membres de l'UE ne parviennent toujours pas à se mettre d'accord sur le chiffrement de bout en bout<span style="font-weight: normal">, les opinions divergent quant à la protection des droits et la surveillance de masse</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2108130-18/club-professionnels-informatique/actualites/etats-membres-l-ue-ne-parviennent-toujours-se-mettre-d-accord-chiffrement-bout-bout/#post11978514">
+					<span class="comment"></span>352				</a>
+				<time itemprop="dateCreated" datetime="2023-10-17T13:14:00" class="fontColorDate">
+					17/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+		</div>
+		
+		
+		
+		<div class="colonnePubli" data-title="Publications Informatique">
+			
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/python.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://python.developpez.com/actu/349745/Python-generer-les-partitions-d-un-ensemble-d-elements-un-billet-blog-de-Denis-Hulo/" title="https://www.developpez.net/forums/blogs/44027-user/b10537/python-generer-partitions-ensemble/">
+			Python : générer les partitions d'un ensemble d'éléments, <span style="font-weight: normal">un billet blog de Denis Hulo</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/44027-user/b10537/python-generer-partitions-d-ensemble/">
+		<span class="comment"></span>0	</a>
+	<time itemprop="dateCreated" datetime="2023-10-19T18:01:00" class="fontColorDate">
+		19/10	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/microsoft.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://microsoft.developpez.com/actu/349581/Microsoft-Edge-espionne-votre-activite-de-navigation-sur-Chrome-voici-comment-l-arreter/" title="https://www.developpez.net/forums/d2157316/systemes/windows/microsoft-edge-espionne-activite-navigation-chrome-voici-l-arreter/#post11978283">
+			Microsoft Edge espionne votre activité de navigation sur Chrome<span style="font-weight: normal">, voici comment l'arrêter</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157316/systemes/windows/microsoft-edge-espionne-activite-navigation-chrome-voici-l-arreter/#post11978283">
+					<span class="comment"></span>2				</a>
+				<time itemprop="dateCreated" datetime="2023-10-16T14:56:40" class="fontColorDate">
+					16/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/google.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://web.developpez.com/actu/349503/Comment-se-preparer-a-la-fin-des-cookies-tiers-par-Google-Google-desactivera-les-cookiers-tiers-de-100-pourcent-des-utilisateurs-a-partir-du-troisieme-trimestre-2024/" title="https://www.developpez.net/forums/d2157182/webmasters-developpement-web/general-conception-web/se-preparer-fin-cookies-tiers-google-google-desactivera-cookiers-tiers-100/#post11977605">
+			Comment se préparer à la fin des cookies tiers, par Google<span style="font-weight: normal">, Google désactivera les cookiers tiers de 100% des utilisateurs à partir du troisième trimèstre 2024</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157182/webmasters-developpement-web/general-conception-web/se-preparer-fin-cookies-tiers-google-google-desactivera-cookiers-tiers-100/#post11977605">
+					<span class="comment"></span>4				</a>
+				<time itemprop="dateCreated" datetime="2023-10-13T04:36:41" class="fontColorDate">
+					13/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/onlyoffice.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="/index/redirect/101448/Tutoriel-pour-apprendre-comment-integrer-une-salle-d-ONLYOFFICE-DocSpace-dans-une-application-a-page-unique-un-tutoriel-de-Daria-Lapikhina/" title="https://www.developpez.com/redirect/6370">
+			Tutoriel pour apprendre comment intégrer une salle d'ONLYOFFICE DocSpace dans une application à page unique<span style="font-weight: normal">, un tutoriel de Daria Lapikhina</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2157183/logiciels/solutions-d-entreprise/onlyoffice/tutoriel-apprendre-integrer-salle-donlyoffice-docspace-application-page-unique/#post11977636">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-12T22:32:00" class="fontColorDate">
+					12/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/c++.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://cpp.developpez.com/actu/349245/Livrer-un-Cplusplus-sur-par-Bjarne-Stroustrup-au-CppCon-2023-sa-presentation-expose-une-approche-basee-sur-les-profils-de-securite-pour-relever-ces-defis/" title="https://www.developpez.net/forums/d2156902/c-cpp/cpp/livrer-cpp-bjarne-stroustrup-cppcon-2023/#post11976252">
+			Livrer un C++ sûr, par Bjarne Stroustrup au CppCon 2023<span style="font-weight: normal">, sa présentation expose une approche basée sur les profils de sécurité pour relever ces défis</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2156902/c-cpp/cpp/livrer-cpp-bjarne-stroustrup-cppcon-2023/#post11976252">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-10-10T02:41:00" class="fontColorDate">
+					10/10				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/python.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://python.developpez.com/actu/349152/Python-generer-l-ensemble-des-parties-d-un-ensemble-un-billet-blog-de-Denis-Hulo/" title="https://www.developpez.net/forums/blogs/44027-user/b10529/python-generer-lensemble-parties-ensemble/">
+			Python : générer l'ensemble des parties d'un ensemble,<span style="font-weight: normal"> un billet blog de Denis Hulo</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/44027-user/b10529/python-generer-l-ensemble-parties-d-ensemble/">
+		<span class="comment"></span>0	</a>
+	<time itemprop="dateCreated" datetime="2023-10-04T00:58:00" class="fontColorDate">
+		04/10	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/microcontrolleur.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://embarque.developpez.com/actu/349078/FPGA-moins-Que-fait-ce-code-Verilog-SystemVerilog-Un-billet-blog-de-f-leb/" title="https://www.developpez.net/forums/blogs/283256-f-leb/b10517/fpga-verilogsystemverilog-code/">
+			FPGA - Que fait ce code Verilog/SystemVerilog ? <span style="font-weight: normal">Un billet blog de f-leb</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/283256-f-leb/b10517/fpga-verilogsystemverilog-code/">
+		<span class="comment"></span>0	</a>
+	<time itemprop="dateCreated" datetime="2023-10-02T18:30:00" class="fontColorDate">
+		02/10	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/programmation.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://programmation.developpez.com/actu/348519/CatalaLang-catala-un-langage-de-programmation-pour-la-specification-des-lois-Catala-permet-d-annoter-un-texte-legislatif-avec-sa-signification-en-termes-de-code/" title="https://www.developpez.net/forums/d2156152/club-professionnels-informatique/actualites/catalalangcatala-langage-programmation-specification-lois/#post11972589">
+			CatalaLang/catala : un langage de programmation pour la spécification des lois<span style="font-weight: normal">, Catala permet d'annoter un texte législatif avec sa signification en termes de code</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2156152/club-professionnels-informatique/actualites/catalalangcatala-langage-programmation-specification-lois/#post11972589">
+					<span class="comment"></span>1				</a>
+				<time itemprop="dateCreated" datetime="2023-09-28T15:34:00" class="fontColorDate">
+					28/09				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/intelligence-artificielle2.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://intelligence-artificielle.developpez.com/actu/348700/La-distillation-pas-a-pas-un-nouveau-paradigme-d-apprentissage-pour-surpasser-les-performances-des-grands-LLM-avec-moins-de-donnees-d-entrainement-et-des-modeles-d-IA-de-plus-petite-taille/" title="https://www.developpez.net/forums/d2156343/general-developpement/algorithme-mathematiques/intelligence-artificielle/quotdistillation-pas-a-pasquot-nouveau-paradigme-surpasser-performances-grands-llm/#post11973483">
+			La "distillation pas-à-pas", un nouveau paradigme d'apprentissage pour surpasser les performances des grands LLM<span style="font-weight: normal">, avec moins de données d'entraînement et des modèles d'IA de plus petite taille</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2156343/general-developpement/algorithme-mathematiques/intelligence-artificielle/quotdistillation-pas-a-pasquot-nouveau-paradigme-surpasser-performances-grands-llm/#post11973483">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-09-26T14:23:00" class="fontColorDate">
+					26/09				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/python.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://python.developpez.com/actu/348498/Mathematiques-et-Python-moins-Calcul-formel-avec-Python-suite-relations-entre-coefficients-et-racines-d-un-polynome-un-billet-blog-de-Denis-Hulo/" title="https://www.developpez.net/forums/blogs/44027-user/b10525/calcul-formel-python-suite-relations-entre-coefficients-racines-polynome/">
+			Mathématiques et Python - Calcul formel avec Python (suite) : relations entre coefficients et racines d'un polynôme,<span style="font-weight: normal"> un billet blog de Denis Hulo</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/44027-user/b10525/calcul-formel-python-suite-relations-entre-coefficients-racines-d-polynome/">
+		<span class="comment"></span>0	</a>
+	<time itemprop="dateCreated" datetime="2023-09-18T14:00:00" class="fontColorDate">
+		18/09	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/microcontrolleur.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://embarque.developpez.com/actu/348467/FPGA-moins-Logique-sequentielle-et-conception-RTL-Register-Transfer-Level-un-billet-blog-de-f-leb/" title="https://www.developpez.net/forums/blogs/283256-f-leb/b10513/fpga-logique-sequentielle-conception-rtl-register-transfer-level/">
+			FPGA - Logique séquentielle et conception RTL (Register Transfer Level)<span style="font-weight: normal">, un billet blog de f-leb</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/283256-f-leb/b10513/fpga-logique-sequentielle-conception-rtl-register-transfer-level/">
+		<span class="comment"></span>0	</a>
+	<time itemprop="dateCreated" datetime="2023-09-18T08:00:00" class="fontColorDate">
+		18/09	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/c++.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://cpp.developpez.com/actu/348473/La-programmation-en-Cplusplus-est-difficile-le-genie-logiciel-en-Cplusplus-est-encore-plus-difficile-un-article-d-EDUARDO-ROCHA-traduit-par-Escapetiger/" title="https://www.developpez.net/forums/d2156069/c-cpp/cpp/programmation-cpp-difficile-genie-logiciel-cpp-plus-difficile/#post11972235">
+			La programmation en C++ est difficile, le génie logiciel en C++ est encore plus difficile,<span style="font-weight: normal"> un article d'EDUARDO ROCHA, traduit par Escapetiger</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2156069/c-cpp/cpp/programmation-cpp-difficile-genie-logiciel-cpp-plus-difficile/#post11972235">
+					<span class="comment"></span>17				</a>
+				<time itemprop="dateCreated" datetime="2023-09-17T00:30:00" class="fontColorDate">
+					17/09				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/securite2.png" alt="Livre" />
+		</figure>
+		<a class="titre" href="https://securite.developpez.com/actu/348130/Ethical-hacking-apprendre-l-attaque-pour-mieux-se-defendre-alors-que-l-impact-economique-des-activites-cybercriminelles-a-ete-evalue-annuellement-a-1-000-milliards/" title="https://www.developpez.net/forums/d2155663/systemes/securite/ethical-hacking-apprendre-lattaque-mieux-se-defendre/#post11970186">
+			Ethical hacking : apprendre l'attaque pour mieux se défendre<span style="font-weight: normal">, alors que l'impact économique des activités cybercriminelles a été évalué annuellement à 1&nbsp;000 milliards $</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2155663/systemes/securite/ethical-hacking-apprendre-lattaque-mieux-se-defendre/#post11970186">
+					<span class="comment"></span>2				</a>
+				<time itemprop="dateCreated" datetime="2023-09-11T15:10:09" class="fontColorDate">
+					11/09				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/algorithme.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="/actu/348075/Algorithme-moins-L-analyse-lexicale-premiere-phase-de-la-compilation-qui-consiste-a-lire-le-code-source-pour-en-extraire-les-unites-lexicales-un-billet-blog-de-matser/" title="https://www.developpez.net/forums/blogs/116855-matser/b10521/analyseur-lexical/">
+			Algorithme - L'analyse lexicale, première phase de la compilation qui consiste à lire le code source pour en extraire les unités lexicales,<span style="font-weight: normal"> un billet blog de matser</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/116855-emmesse/b10521/l-analyse-lexicale-premiere-phase-compilation/">
+		<span class="comment"></span>2	</a>
+	<time itemprop="dateCreated" datetime="2023-09-06T02:53:00" class="fontColorDate">
+		06/09	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/microcontrolleur.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://embarque.developpez.com/actu/347972/FPGA-moins-Les-niveaux-d-abstraction-dans-les-langages-de-description-de-materiel-HDL-moins-Partie-2-2-un-billet-blog-de-f-leb/" title="https://www.developpez.net/forums/blogs/283256-f-leb/b10512/fpga-niveaux-dabstraction-langages-description-materiel-hdl-partie-2-2/">
+			FPGA - Les niveaux d'abstraction dans les langages de description de matériel (HDL) - Partie 2/2<span style="font-weight: normal">, un billet blog de f-leb</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/283256-f-leb/b10512/fpga-niveaux-d-abstraction-langages-description-materiel-hdl-partie-22/">
+		<span class="comment"></span>2	</a>
+	<time itemprop="dateCreated" datetime="2023-09-04T08:00:00" class="fontColorDate">
+		04/09	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/faq.png" alt="FAQ" />
+		</figure>
+		<a class="titre" href="/index/redirect/100927/La-FAQ-Lazarus-s-enrichit-d-une-nouvelle-section-sur-la-programmation-Android-participez-a-l-etoffer/" title="https://lazarus.developpez.com/faq/?page=Android">
+			La FAQ Lazarus s'enrichit d'une nouvelle section sur la programmation Android<span style="font-weight: normal">, participez à l'étoffer</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2155484/autres-langages/pascal/lazarus/faq-lazarus-s-enrichit-d-nouvelle-section-programmation-android-participez-l-etoffer/#post11969339">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-09-03T14:50:00" class="fontColorDate">
+					03/09				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/c++.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="/index/redirect/100898/Requires-expressions-en-Cplusplus-20-un-tutoriel-d-Andrzej-Krzemienski/" title="https://akrzemi1.developpez.com/tutoriels/cpp/requires-expressions/">
+			Requires expressions en C++ 20<span style="font-weight: normal">, un tutoriel d'Andrzej Krzemienski</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2155363/c-cpp/cpp/requires-expressions-cpp-20-tutoriel-d-andrzej-krzemiesharp324ski/#post11968821">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-08-31T13:19:00" class="fontColorDate">
+					31/08				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/django.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="/index/redirect/100887/JetBrains-moins-Creer-une-application-django-dans-pycharm-un-tutoriel-de-Denis-Mashutin/" title="https://jetbrains.developpez.com/tutoriel/pycharm/creer-une-application-django-dans-pycharm/">
+			JetBrains - Créer une application django dans pycharm<span style="font-weight: normal">, un tutoriel de Denis Mashutin</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2155336/environnements-developpement/autres-edi/jetbrains/jetbrains-creer-application-django-pycharm/#post11968707">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-08-31T08:00:00" class="fontColorDate">
+					31/08				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/python.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://python.developpez.com/actu/347849/Mathematiques-et-Python-initiation-au-calcul-formel-avec-Python-un-billet-blog-de-Denis-Hulo/" title="https://www.developpez.net/forums/blogs/44027-user/b10516/initiation-calcul-formel-python/">
+			Mathématiques et Python : initiation au calcul formel avec Python,<span style="font-weight: normal"> un billet blog de Denis Hulo</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/44027-user/b10516/initiation-calcul-formel-python/">
+		<span class="comment"></span>0	</a>
+	<time itemprop="dateCreated" datetime="2023-08-30T11:46:00" class="fontColorDate">
+		30/08	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/vieux-dev.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://cpp.developpez.com/actu/347747/Bjarne-Stroustrup-72-ans-createur-du-langage-Cplusplus-partage-ses-conseils-de-vie-et-a-egalement-raconte-comment-il-est-devenu-programmeur-par-erreur/" title="https://www.developpez.net/forums/d2155213/club-professionnels-informatique/actualites/bjarne-stroustrup-72-ans-createur-langage-cpp-partage-conseils-vie/#post11968043">
+			Bjarne Stroustrup, 72 ans, créateur du langage C++, partage ses conseils de vie <span style="font-weight: normal">et a également raconté comment il est devenu programmeur par erreur</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2155213/club-professionnels-informatique/actualites/bjarne-stroustrup-72-ans-createur-langage-cpp-partage-conseils-vie/#post11968043">
+					<span class="comment"></span>1				</a>
+				<time itemprop="dateCreated" datetime="2023-08-28T14:20:17" class="fontColorDate">
+					28/08				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/intelligence-artificielle2.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://intelligence-artificielle.developpez.com/actu/347447/Les-limites-et-perspectives-des-benchmarks-pour-evaluer-les-performances-de-l-IA-par-rapport-aux-performances-humaines/" title="https://www.developpez.net/forums/d2154826/general-developpement/algorithme-mathematiques/intelligence-artificielle/limites-perspectives-benchmarks-evaluer-performances-l-ia-rapport-aux-performances/#post11966188">
+			Les limites et perspectives des benchmarks pour évaluer les performances de l'IA par rapport aux performances humaines		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2154826/general-developpement/algorithme-mathematiques/intelligence-artificielle/limites-perspectives-benchmarks-evaluer-performances-l-ia-rapport-aux-performances/#post11966188">
+					<span class="comment"></span>4				</a>
+				<time itemprop="dateCreated" datetime="2023-08-28T14:14:00" class="fontColorDate">
+					28/08				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/microcontrolleur.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="/index/redirect/100780/Apprendre-a-developper-sur-FPGA-avec-Intel-Quartus-Prime-Communication-SPI-avec-un-convertisseur-Analogique-Numerique-simulation-fonctionnelle-et-analyse-des-signaux-un-tutoriel-de-f-leb/" title="https://f-leb.developpez.com/tutoriels/fpga/quartus-prime/communication-spi-adc/">
+			Apprendre à développer sur FPGA avec Intel Quartus Prime : Communication SPI avec un convertisseur Analogique-Numérique, simulation fonctionnelle et analyse des signaux<span style="font-weight: normal">, un tutoriel de f-leb</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2154971/general-developpement/programmation-systeme/embarque/fpga-apprendre-developper-fpga-intel-quartus-prime/#post11966938">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-08-22T10:58:00" class="fontColorDate">
+					22/08				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/microcontrolleur.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://embarque.developpez.com/actu/347477/FPGA-moins-Les-niveaux-d-abstraction-dans-les-langages-de-description-de-materiel-HDL-moins-Partie-1-2-un-billet-blog-de-f-leb/" title="https://www.developpez.net/forums/blogs/283256-f-leb/b10511/fpga-niveaux-d-abstraction-langages-description-materiel-hdl-partie-12/">
+			FPGA - Les niveaux d'abstraction dans les langages de description de matériel (HDL) - Partie 1/2<span style="font-weight: normal">, un billet blog de f-leb</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/283256-f-leb/b10511/fpga-niveaux-d-abstraction-langages-description-materiel-hdl-partie-12/">
+		<span class="comment"></span>0	</a>
+	<time itemprop="dateCreated" datetime="2023-08-21T08:00:00" class="fontColorDate">
+		21/08	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/c++.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://cpp.developpez.com/actu/347347/Un-TypeScript-pour-le-Cplusplus-un-expose-en-video-de-la-conference-Cplusplus-Now-2023-par-Herb-Sutter-un-expert-Cplusplus-reconnu-mondialement/" title="https://www.developpez.net/forums/d2154730/club-professionnels-informatique/actualites/typescript-cpp-expose-video-conference-cpp-now-2023-herb-sutter/#post11965760">
+			Un TypeScript pour le C++, un exposé en vidéo de la conférence C++ Now 2023, par Herb Sutter, <span style="font-weight: normal">un expert C++ reconnu mondialement</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2154730/club-professionnels-informatique/actualites/typescript-cpp-expose-video-conference-cpp-now-2023-herb-sutter/#post11965760">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-08-17T01:29:44" class="fontColorDate">
+					17/08				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/mariadb.png" alt="Livre" />
+		</figure>
+		<a class="titre" href="/index/redirect/100704/MariaDB-moins-Administration-et-optimisation-un-livre-de-Stephane-Combaudon-critique-par-Fabien-Celaia/" title="https://mysql.developpez.com/livres/index/?page=Livres-en-francais#L2409008550">
+			MariaDB - Administration et optimisation, <span style="font-weight: normal">un livre de Stéphane Combaudon, critiqué par Fabien Celaia</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2154610/bases-donnees/mysql/livres/livre-mariadb-administration-optimisation/#post11965223">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-08-16T13:09:00" class="fontColorDate">
+					16/08				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/python.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://python.developpez.com/actu/347267/Mathematiques-et-Python-determiner-la-position-de-valeurs-dans-une-liste-triee-en-fonction-de-leur-repartition-un-billet-blog-de-Denis-Hulo/" title="https://www.developpez.net/forums/blogs/44027-user/b10510/mathematiques-python-determiner-position-valeurs-liste-triee-fonction-repartition/">
+			Mathématiques et Python : déterminer la position de valeurs dans une liste triée en fonction de leur répartition,<span style="font-weight: normal"> un billet blog de Denis Hulo</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/44027-user/b10510/mathematiques-python-determiner-position-valeurs-liste-triee-fonction-repartition/">
+		<span class="comment"></span>0	</a>
+	<time itemprop="dateCreated" datetime="2023-08-14T01:13:00" class="fontColorDate">
+		14/08	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/hardware.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="/index/redirect/100640/Dossier-sur-le-NAS-F4-423-de-TerraMaster-decouvrez-ce-NAS-quatre-baies-et-son-ecosysteme-par-LittleWhite/" title="https://hardware.developpez.com/dossiers/NAS/TNAS-F4-423/">
+			Dossier sur le NAS F4-423 de TerraMaster<span style="font-weight: normal"> : découvrez ce NAS quatre baies et son écosystème, par LittleWhite</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2154588/systemes/hardware/dossier-nas-f4-423-terramaster/#post11965095">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-08-11T13:16:00" class="fontColorDate">
+					11/08				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/livres.png" alt="Livre" />
+		</figure>
+		<a class="titre" href="/index/redirect/100414/Optimization-Techniques-and-their-Applications-to-Mine-Systems-un-livre-de-Amit-Kumar-Gorai-et-Snehamoy-Chatterjee-critique-par-Thibaut-Cuvelier/" title="https://algo.developpez.com/livres/index/?page=Livres-en-anglais#L1032060980">
+			Optimization Techniques and their Applications to Mine Systems,<span style="font-weight: normal"> un livre de Amit Kumar Gorai et Snehamoy Chatterjee, critiqué par Thibaut Cuvelier</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2153716/general-developpement/algorithme-mathematiques/livres/livre-optimization-techniques-and-their-applications-to-systems/#post11960541">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-08-11T08:12:00" class="fontColorDate">
+					11/08				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/excel.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://excel.developpez.com/actu/346988/VBA-Excel-moins-ColumnWidths-d-un-ListBox-ComboBox-d-un-UserForm-par-rapport-a-la-largeur-des-colonnes-d-un-Range-un-billet-blog-de-Philippe-Tulliez/" title="https://www.developpez.net/forums/blogs/346483-philippe-tulliez/b10304/vba-excel-columnwidths-d-listboxcombobox-d-userform-rapport-largeur-colonnes-d-range/">
+			VBA Excel - ColumnWidths d'un ListBox/ComboBox d'un UserForm par rapport à la largeur des colonnes d'un Range, <span style="font-weight: normal">un billet blog de Philippe Tulliez</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/346483-philippe-tulliez/b10304/vba-excel-columnwidths-d-listboxcombobox-d-userform-rapport-largeur-colonnes-d-range/">
+		<span class="comment"></span>2	</a>
+	<time itemprop="dateCreated" datetime="2023-08-04T16:57:00" class="fontColorDate">
+		04/08	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/livres.png" alt="Livre" />
+		</figure>
+		<a class="titre" href="/index/redirect/100413/Text-Analytics-An-Introduction-to-the-Science-and-Applications-of-Unstructured-Information-Analysis-un-livre-de-John-Atkinson-Abutridy-critique-par-Thibaut-Cuvelier/" title="https://intelligence-artificielle.developpez.com/livres/index/?page=Livres-en-anglais#L1032245263">
+			Text Analytics: An Introduction to the Science and Applications of Unstructured Information Analysis,<span style="font-weight: normal"> un livre de John Atkinson-Abutridy, critiqué par Thibaut Cuvelier</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2153714/general-developpement/algorithme-mathematiques/livres/livre-text-analytics-an-introduction-to-the-science-and-applications-of-unstructured-information-analysis/#post11960537">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-08-04T08:25:00" class="fontColorDate">
+					04/08				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/microcontrolleur.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://embarque.developpez.com/actu/346929/FPGA-moins-Apprendre-a-piloter-un-anneau-de-LED-adressables-WS2812B-un-billet-blog-de-f-leb/" title="https://www.developpez.net/forums/blogs/283256-f-leb/b10508/fpga-creer-circuit-logique-piloter-anneau-led-adressables-ws2812b/">
+			FPGA - Apprendre à piloter un anneau de LED adressables WS2812B<span style="font-weight: normal">, un billet blog de f-leb</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/283256-f-leb/b10508/fpga-creer-circuit-logique-piloter-anneau-led-adressables-ws2812b/">
+		<span class="comment"></span>1	</a>
+	<time itemprop="dateCreated" datetime="2023-08-03T08:00:00" class="fontColorDate">
+		03/08	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/excel.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://excel.developpez.com/actu/346867/VBA-Excel-moins-Copiez-et-personnalisez-l-ordre-de-vos-feuilles-pour-imprimer-et-exporter-en-PDF-un-billet-blog-de-Philippe-Tulliez/" title="https://www.developpez.net/forums/blogs/346483-philippe-tulliez/b10504/vba-excel-copiez-personnalisez-lordre-vos-feuilles-imprimer-exporter-pdf/">
+			VBA Excel - Copiez et personnalisez l'ordre de vos feuilles pour imprimer et exporter en PDF, <span style="font-weight: normal">un billet blog de Philippe Tulliez</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/346483-philippe-tulliez/b10504/vba-excel-copiez-personnalisez-l-ordre-vos-feuilles-imprimer-exporter-pdf/">
+		<span class="comment"></span>5	</a>
+	<time itemprop="dateCreated" datetime="2023-07-31T08:00:00" class="fontColorDate">
+		31/07	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/excel.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://excel.developpez.com/actu/346863/Apprendre-comment-faire-une-extraction-flexible-des-noms-de-feuilles-avec-une-fonction-generique-VBA-pour-Excel-un-billet-blog-de-Philippe-Tulliez/" title="https://www.developpez.net/forums/blogs/346483-philippe-tulliez/b10505/extraction-flexible-noms-feuilles-fonction-generique-vba-excel/">
+			Apprendre comment faire une extraction flexible des noms de feuilles avec une fonction générique VBA pour Excel,<span style="font-weight: normal"> un billet blog de Philippe Tulliez</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/346483-philippe-tulliez/b10505/extraction-flexible-noms-feuilles-fonction-generique-vba-excel/">
+		<span class="comment"></span>0	</a>
+	<time itemprop="dateCreated" datetime="2023-07-30T21:04:00" class="fontColorDate">
+		30/07	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/excel.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://excel.developpez.com/actu/346852/VBA-Excel-moins-Utilisation-de-la-fonction-Dir-en-VBA-pour-verifier-l-existence-d-un-fichier-un-billet-blog-de-Philippe-Tulliez/" title="https://www.developpez.net/forums/blogs/346483-philippe-tulliez/b10503/utilisation-fonction-dir-vba-verifier-lexistence-fichier/">
+			VBA Excel - Utilisation de la fonction Dir en VBA pour vérifier l'existence d'un fichier,<span style="font-weight: normal"> un billet blog de Philippe Tulliez</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/346483-philippe-tulliez/b10503/utilisation-fonction-dir-vba-verifier-l-existence-d-fichier/">
+		<span class="comment"></span>3	</a>
+	<time itemprop="dateCreated" datetime="2023-07-30T03:36:00" class="fontColorDate">
+		30/07	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/livres.png" alt="Livre" />
+		</figure>
+		<a class="titre" href="/index/redirect/100412/Practical-Simulations-for-Machine-Learning-Using-Synthetic-Data-for-AI-un-livre-de-Paris-Buttfield-Addison-Mars-Buttfield-Addison-Tim-Nugent-et-Jon-Manning-critique-par-Thibaut-Cuvelier/" title="https://intelligence-artificielle.developpez.com/livres/index/?page=Livres-en-anglais#L1492089923">
+			Practical Simulations for Machine Learning: Using Synthetic Data for AI,<span style="font-weight: normal"> un livre de Paris Buttfield-Addison, Mars Buttfield-Addison, Tim Nugent et Jon Manning, critiqué par Thibaut Cuvelier</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2153713/general-developpement/algorithme-mathematiques/livres/livre-practical-simulations-for-machine-learning-using-synthetic-data-for-ai/#post11960535">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-07-28T08:54:00" class="fontColorDate">
+					28/07				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/python.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://python.developpez.com/actu/346727/Mathematiques-et-Python-moins-Suites-recurrentes-avec-Python-un-billet-blog-de-Denis-Hulo/" title="https://www.developpez.net/forums/blogs/44027-user/b10499/suites-recurrentes-python/">
+			Mathématiques et Python - Suites récurrentes avec Python,<span style="font-weight: normal"> un billet blog de Denis Hulo</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/44027-user/b10499/suites-recurrentes-python/">
+		<span class="comment"></span>0	</a>
+	<time itemprop="dateCreated" datetime="2023-07-25T12:43:00" class="fontColorDate">
+		25/07	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/excel.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="/actu/346672/Guide-pratique-de-VBA-Excel-convertir-le-format-d-un-texte-en-balises-HTML-un-billet-blog-de-Philippe-Tulliez/" title="https://www.developpez.net/forums/blogs/346483-philippe-tulliez/b10502/guide-pratique-vba-excel-convertir-format-d-texte-balises-html/">
+			Guide pratique de VBA Excel : convertir le format d'un texte en balises HTML<span style="font-weight: normal">, un billet blog de Philippe Tulliez</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/346483-philippe-tulliez/b10502/guide-pratique-vba-excel-convertir-format-d-texte-balises-html/">
+		<span class="comment"></span>0	</a>
+	<time itemprop="dateCreated" datetime="2023-07-22T19:56:00" class="fontColorDate">
+		22/07	</time>
+</div>
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/livres.png" alt="Livre" />
+		</figure>
+		<a class="titre" href="/index/redirect/100408/Natural-Language-Processing-with-Transformers-moins-Building-Language-Applications-with-Hugging-Face-un-livre-de-de-Lewis-Tunstall-Leandro-von-Werra-et-Thomas-Wolf-critique-par-Thibaut-Cuvelier/" title="https://intelligence-artificielle.developpez.com/livres/index/?page=Livres-en-anglais#L1098136799">
+			Natural Language Processing with Transformers - Building Language Applications with Hugging Face<span style="font-weight: normal">, un livre de de Lewis Tunstall, Leandro von Werra et Thomas Wolf, critiqué par Thibaut Cuvelier</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2153657/general-developpement/algorithme-mathematiques/livres/livre-natural-language-processing-with-transformers-building-language-applications-with-hugging-face/#post11960260">
+					<span class="comment"></span>0				</a>
+				<time itemprop="dateCreated" datetime="2023-07-21T08:25:00" class="fontColorDate">
+					21/07				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col1">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/web.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://web.developpez.com/actu/346284/Trois-recommandations-pour-securiser-les-sites-web-cote-navigateur-par-Herve-Hulin/" title="https://www.developpez.net/forums/d2153338/webmasters-developpement-web/general-conception-web/trois-recommandations-securiser-sites-web-cote-navigateur-herve-hulin-jscrambler/#post11958519">
+			Trois recommandations pour sécuriser les sites web côté navigateur<span style="font-weight: normal">, par Hervé Hulin</span>		</a>
+		
+	
+	
+		
+			<div class="infosPost">
+				<a class="annonceLink infosPost" href="https://www.developpez.net/forums/d2153338/webmasters-developpement-web/general-conception-web/trois-recommandations-securiser-sites-web-cote-navigateur-herve-hulin-jscrambler/#post11958519">
+					<span class="comment"></span>4				</a>
+				<time itemprop="dateCreated" datetime="2023-07-12T14:51:00" class="fontColorDate">
+					12/07				</time>	
+			</div>
+
+		
+	
+	</article>
+
+	
+	
+	<article class="col2">
+		<figure class="figure">
+			<img class="img-fluid" src="https://www.developpez.com/images/logos/arduinoV2.png" alt="Tutoriel" />
+		</figure>
+		<a class="titre" href="https://arduino.developpez.com/actu/346333/Arduino-Uno-R4-WiFi-moins-Jouer-avec-la-matrice-de-LED-un-billet-blog-de-f-leb/" title="https://www.developpez.net/forums/blogs/283256-f-leb/b10497/arduino-uno-r4-wifi-jouer-matrice-led/">
+			Arduino Uno R4 WiFi - Jouer avec la matrice de LED<span style="font-weight: normal">, un billet blog de f-leb</span>		</a>
+		<div class="infosPost">
+	<a class="annonceLink infosPost" href="https://www.developpez.net/forums/blogs/283256-f-leb/b10497/arduino-uno-r4-wifi-jouer-matrice-led/">
+		<span class="comment"></span>0	</a>
+	<time itemprop="dateCreated" datetime="2023-07-10T20:42:00" class="fontColorDate">
+		10/07	</time>
+</div>
+	</article>
+
+
+
+  <div id="pagetitle">
+    <a name="Cours"></a> 
+    <h1>Cours</h1>
+    
+  </div>
+
+
+
+	<embed src=/document/le_courant_electrique.pdf width=1200 height=600 type='application/pdf'/>
+  <embed src=/document/circuit_et_courant_electrique.pdf width=1200 height=600 type='application/pdf'/>
+	<embed src=/document/resistance.pdf width=1200 height=600 type='application/pdf'/>
+	
+
+
+    
+  <script src="liste.js"></script>
+</body>
+<footer>
+    <nav class="navbar ">
+        <ul>
+          <li><a href="#vos contribution">vos contribution</a></li>
+          <li><a href="#nous contacter">nous contacter</a></li>
+          <li><a href="#suivre notre calandrier evenementiel">suivre notre calandrier evenementiel</a></li>
+        </ul>
+    </nav>
+</footer>
+</html>
