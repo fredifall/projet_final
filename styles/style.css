@@ -128,3 +128,40 @@ div h1{
 .navbar{
     background-color: blue;
 }
+.img-fluid{
+    width: 35px;
+    height: 35px;
+}
+.titre{
+    text-decoration: none;
+    font-family: Verdana,Amiko,sans-serif;
+    font-size: 14px;
+    width: 950px;
+    height: 35px;
+    color: black;
+    
+}
+.container{
+    display: flex;
+
+    background-color: aqua;
+}
+.colonneActu{
+    display: flexbox;
+    background-color: greenyellow;
+}
+.col1{
+    display: flex;
+
+}
+.col2{
+    display: flex;
+
+}
+.infosPost{
+    justify-content: flex-end;
+}
+.article-heading{
+    text-align: center;
+    margin-top: 20px;
+}
